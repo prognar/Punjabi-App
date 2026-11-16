@@ -1,0 +1,10731 @@
+{
+ "perLesson": {
+  "vocab": 20,
+  "phrases": 8,
+  "lettersPattern": [
+   2,
+   3
+  ]
+ },
+ "categories": [
+  [
+   "questions",
+   "Questions",
+   "❓"
+  ],
+  [
+   "numbers",
+   "Numbers",
+   "🔢"
+  ],
+  [
+   "colors",
+   "Colors",
+   "🎨"
+  ],
+  [
+   "food",
+   "Food & drink",
+   "🍽️"
+  ],
+  [
+   "items",
+   "Everyday items",
+   "🧺"
+  ],
+  [
+   "people",
+   "People & family",
+   "👨‍👩‍👧"
+  ],
+  [
+   "time",
+   "Time & days",
+   "🕐"
+  ],
+  [
+   "actions",
+   "Action words",
+   "🏃"
+  ],
+  [
+   "describe",
+   "Describing words",
+   "✨"
+  ],
+  [
+   "body",
+   "Body",
+   "🖐️"
+  ],
+  [
+   "places",
+   "Home & places",
+   "🏠"
+  ],
+  [
+   "directions",
+   "Directions",
+   "🧭"
+  ],
+  [
+   "nature",
+   "Animals & nature",
+   "🌳"
+  ],
+  [
+   "pronouns",
+   "Little words",
+   "🔤"
+  ],
+  [
+   "gurdwara",
+   "Gurdwara",
+   "🙏"
+  ],
+  [
+   "feelings",
+   "Feelings",
+   "😊"
+  ],
+  [
+   "health",
+   "Health",
+   "🩺"
+  ],
+  [
+   "clothes",
+   "Clothes",
+   "👕"
+  ],
+  [
+   "shopping",
+   "Shopping & money",
+   "🛒"
+  ],
+  [
+   "travel",
+   "Getting around",
+   "🚗"
+  ],
+  [
+   "school",
+   "School & work",
+   "🎒"
+  ],
+  [
+   "other",
+   "Other words",
+   "💬"
+  ]
+ ],
+ "vocabCats": {
+  "age": "other",
+  "arm": "body",
+  "apple": "food",
+  "air": "nature",
+  "alone": "describe",
+  "angry": "describe",
+  "anyone": "other",
+  "answer": "other",
+  "army": "other",
+  "ask": "actions",
+  "attack": "other",
+  "autumn": "time",
+  "away": "directions",
+  "baby": "people",
+  "bad": "describe",
+  "ball": "items",
+  "basket": "items",
+  "beautiful": "describe",
+  "before": "time",
+  "after": "time",
+  "begin": "actions",
+  "behind": "directions",
+  "below": "directions",
+  "better": "describe",
+  "big": "describe",
+  "bird": "nature",
+  "birthday": "time",
+  "blood": "body",
+  "blue": "colors",
+  "boat": "items",
+  "body": "body",
+  "bone": "body",
+  "book": "items",
+  "born": "other",
+  "borrow": "actions",
+  "both": "other",
+  "box": "items",
+  "boy": "people",
+  "bus": "items",
+  "brave": "describe",
+  "bread": "food",
+  "breathe": "actions",
+  "bell": "items",
+  "fire": "nature",
+  "star": "nature",
+  "tree": "nature",
+  "time": "time",
+  "man": "people",
+  "night": "time",
+  "chocolate": "food",
+  "garden": "places",
+  "hand": "body",
+  "ground": "nature",
+  "bear": "nature",
+  "letter": "items",
+  "seed": "nature",
+  "bed": "items",
+  "story": "other",
+  "friend": "people",
+  "thing": "items"
+ },
+ "letters": [
+  [
+   "ੳ",
+   "ਊੜਾ",
+   "oo-raa",
+   "vowel carrier for u / oo / o sounds",
+   [
+    [
+     "ਉੱਲੂ",
+     "ul-loo",
+     "owl",
+     "🦉"
+    ],
+    [
+     "ਊਠ",
+     "ooth",
+     "camel",
+     "🐫"
+    ],
+    [
+     "ਉਂਗਲ",
+     "oon-gul",
+     "finger",
+     "☝️"
+    ]
+   ]
+  ],
+  [
+   "ਅ",
+   "ਐੜਾ",
+   "ai-raa",
+   "vowel carrier for a / aa / ai / au sounds",
+   [
+    [
+     "ਅੰਬ",
+     "umb",
+     "mango",
+     "🥭"
+    ],
+    [
+     "ਅੱਖ",
+     "ukkh",
+     "eye",
+     "👁️"
+    ],
+    [
+     "ਆਲੂ",
+     "aa-loo",
+     "potato",
+     "🥔"
+    ]
+   ]
+  ],
+  [
+   "ੲ",
+   "ਈੜੀ",
+   "ee-ree",
+   "vowel carrier for i / ee / e sounds",
+   [
+    [
+     "ਇੱਲ",
+     "ill",
+     "eagle",
+     "🦅"
+    ],
+    [
+     "ਇੱਟ",
+     "itt",
+     "brick",
+     "🧱"
+    ],
+    [
+     "ਇੰਜਣ",
+     "in-jun",
+     "engine",
+     "🚂"
+    ]
+   ]
+  ],
+  [
+   "ਸ",
+   "ਸੱਸਾ",
+   "sus-saa",
+   "s as in sun",
+   [
+    [
+     "ਸੱਪ",
+     "supp",
+     "snake",
+     "🐍"
+    ],
+    [
+     "ਸੇਬ",
+     "saib",
+     "apple",
+     "🍎"
+    ],
+    [
+     "ਸੂਰਜ",
+     "soo-ruj",
+     "sun",
+     "☀️"
+    ],
+    [
+     "ਸੰਤਰਾ",
+     "sun-traa",
+     "orange",
+     "🍊"
+    ]
+   ]
+  ],
+  [
+   "ਹ",
+   "ਹਾਹਾ",
+   "haa-haa",
+   "h as in hat",
+   [
+    [
+     "ਹਾਥੀ",
+     "haa-thee",
+     "elephant",
+     "🐘"
+    ],
+    [
+     "ਹਿਰਨ",
+     "hi-run",
+     "deer",
+     "🦌"
+    ],
+    [
+     "ਹੱਥ",
+     "hutth",
+     "hand",
+     "✋"
+    ],
+    [
+     "ਹੰਸ",
+     "huns",
+     "swan",
+     "🦢"
+    ]
+   ]
+  ],
+  [
+   "ਕ",
+   "ਕੱਕਾ",
+   "kuk-kaa",
+   "k as in skip (no puff of air)",
+   [
+    [
+     "ਕੁੱਤਾ",
+     "kut-taa",
+     "dog",
+     "🐕"
+    ],
+    [
+     "ਕਬੂਤਰ",
+     "ka-boo-tur",
+     "pigeon",
+     "🕊️"
+    ],
+    [
+     "ਕੇਲਾ",
+     "kay-laa",
+     "banana",
+     "🍌"
+    ],
+    [
+     "ਕਿਤਾਬ",
+     "ki-taab",
+     "book",
+     "📚"
+    ]
+   ]
+  ],
+  [
+   "ਖ",
+   "ਖੱਖਾ",
+   "khukh-khaa",
+   "kh — k with a puff of air",
+   [
+    [
+     "ਖਰਗੋਸ਼",
+     "khur-gosh",
+     "rabbit",
+     "🐇"
+    ],
+    [
+     "ਖੀਰਾ",
+     "khee-raa",
+     "cucumber",
+     "🥒"
+    ],
+    [
+     "ਖਿਡੌਣਾ",
+     "khi-dau-naa",
+     "toy",
+     "🧸"
+    ]
+   ]
+  ],
+  [
+   "ਗ",
+   "ਗੱਗਾ",
+   "gug-gaa",
+   "g as in go",
+   [
+    [
+     "ਗਾਂ",
+     "gaa(n)",
+     "cow",
+     "🐄"
+    ],
+    [
+     "ਗਾਜਰ",
+     "gaa-jur",
+     "carrot",
+     "🥕"
+    ],
+    [
+     "ਗੇਂਦ",
+     "gaind",
+     "ball",
+     "⚽"
+    ],
+    [
+     "ਗਧਾ",
+     "ga-dhaa",
+     "donkey",
+     "🫏"
+    ]
+   ]
+  ],
+  [
+   "ਘ",
+   "ਘੱਗਾ",
+   "ghug-gaa",
+   "g with a falling tone (gh)",
+   [
+    [
+     "ਘੋੜਾ",
+     "gho-raa",
+     "horse",
+     "🐎"
+    ],
+    [
+     "ਘਰ",
+     "ghur",
+     "house",
+     "🏠"
+    ],
+    [
+     "ਘੜੀ",
+     "ghu-ree",
+     "clock",
+     "⏰"
+    ]
+   ]
+  ],
+  [
+   "ਙ",
+   "ਙੰਙਾ",
+   "ngun-ngaa",
+   "ng as in sing — never starts a word",
+   []
+  ],
+  [
+   "ਚ",
+   "ਚੱਚਾ",
+   "chuch-chaa",
+   "ch as in chair (no puff)",
+   [
+    [
+     "ਚਿੜੀ",
+     "chi-ree",
+     "sparrow",
+     "🐦"
+    ],
+    [
+     "ਚੂਹਾ",
+     "choo-haa",
+     "mouse",
+     "🐭"
+    ],
+    [
+     "ਚੰਦ",
+     "chund",
+     "moon",
+     "🌙"
+    ],
+    [
+     "ਚਾਬੀ",
+     "chaa-bee",
+     "key",
+     "🔑"
+    ]
+   ]
+  ],
+  [
+   "ਛ",
+   "ਛੱਛਾ",
+   "chhuch-chhaa",
+   "ch with a puff of air",
+   [
+    [
+     "ਛਤਰੀ",
+     "chhut-ree",
+     "umbrella",
+     "☂️"
+    ],
+    [
+     "ਛੱਲੀ",
+     "chhul-lee",
+     "corn",
+     "🌽"
+    ],
+    [
+     "ਛੇ",
+     "chhay",
+     "six",
+     "6️⃣"
+    ]
+   ]
+  ],
+  [
+   "ਜ",
+   "ਜੱਜਾ",
+   "juj-jaa",
+   "j as in jump",
+   [
+    [
+     "ਜਹਾਜ਼",
+     "ja-haaz",
+     "airplane",
+     "✈️"
+    ],
+    [
+     "ਜੁੱਤੀ",
+     "jut-tee",
+     "shoe",
+     "👞"
+    ],
+    [
+     "ਜੁਰਾਬ",
+     "ju-raab",
+     "sock",
+     "🧦"
+    ]
+   ]
+  ],
+  [
+   "ਝ",
+   "ਝੱਜਾ",
+   "jhuj-jaa",
+   "j with a falling tone (jh)",
+   [
+    [
+     "ਝੰਡਾ",
+     "jhun-daa",
+     "flag",
+     "🚩"
+    ],
+    [
+     "ਝਾੜੂ",
+     "jhaa-roo",
+     "broom",
+     "🧹"
+    ],
+    [
+     "ਝੀਂਗਾ",
+     "jheen-gaa",
+     "shrimp",
+     "🦐"
+    ]
+   ]
+  ],
+  [
+   "ਞ",
+   "ਞੰਞਾ",
+   "nyun-nyaa",
+   "ny as in canyon — never starts a word",
+   []
+  ],
+  [
+   "ਟ",
+   "ਟੈਂਕਾ",
+   "tain-kaa",
+   "hard T — tongue curled back",
+   [
+    [
+     "ਟਮਾਟਰ",
+     "ta-maa-tur",
+     "tomato",
+     "🍅"
+    ],
+    [
+     "ਟੋਪੀ",
+     "to-pee",
+     "cap",
+     "🧢"
+    ],
+    [
+     "ਟਰੱਕ",
+     "ta-rukk",
+     "truck",
+     "🚚"
+    ]
+   ]
+  ],
+  [
+   "ਠ",
+   "ਠੱਠਾ",
+   "thut-thaa",
+   "hard T with a puff of air",
+   [
+    [
+     "ਠੰਢਾ",
+     "thun-daa",
+     "cold",
+     "🧊"
+    ],
+    [
+     "ਠੇਲਾ",
+     "thay-laa",
+     "cart",
+     "🛒"
+    ]
+   ]
+  ],
+  [
+   "ਡ",
+   "ਡੱਡਾ",
+   "dud-daa",
+   "hard D — tongue curled back",
+   [
+    [
+     "ਡੱਡੂ",
+     "dud-doo",
+     "frog",
+     "🐸"
+    ],
+    [
+     "ਡੱਬਾ",
+     "dub-baa",
+     "box",
+     "📦"
+    ],
+    [
+     "ਡਾਕੀਆ",
+     "daa-kee-aa",
+     "mail carrier",
+     "📮"
+    ]
+   ]
+  ],
+  [
+   "ਢ",
+   "ਢੱਡਾ",
+   "dhud-daa",
+   "hard D with a falling tone",
+   [
+    [
+     "ਢੋਲ",
+     "dhol",
+     "drum",
+     "🥁"
+    ],
+    [
+     "ਢਿੱਡ",
+     "dhidd",
+     "belly",
+     "🫃"
+    ]
+   ]
+  ],
+  [
+   "ਣ",
+   "ਣਾਣਾ",
+   "naa-naa",
+   "hard N — tongue curled back; never starts a word",
+   [
+    [
+     "ਪਾਣੀ",
+     "paa-nee",
+     "water (ਣ in the middle)",
+     "💧"
+    ]
+   ]
+  ],
+  [
+   "ਤ",
+   "ਤੱਤਾ",
+   "tut-taa",
+   "soft t — tongue on the teeth",
+   [
+    [
+     "ਤੋਤਾ",
+     "to-taa",
+     "parrot",
+     "🦜"
+    ],
+    [
+     "ਤਰਬੂਜ਼",
+     "tur-booz",
+     "watermelon",
+     "🍉"
+    ],
+    [
+     "ਤਾਰਾ",
+     "taa-raa",
+     "star",
+     "⭐"
+    ],
+    [
+     "ਤਿਤਲੀ",
+     "tit-lee",
+     "butterfly",
+     "🦋"
+    ]
+   ]
+  ],
+  [
+   "ਥ",
+   "ਥੱਥਾ",
+   "thuth-thaa",
+   "soft t with a puff of air (not English \"th\")",
+   [
+    [
+     "ਥਾਲੀ",
+     "thaa-lee",
+     "plate",
+     "🍽️"
+    ],
+    [
+     "ਥੈਲਾ",
+     "thai-laa",
+     "bag",
+     "🛍️"
+    ]
+   ]
+  ],
+  [
+   "ਦ",
+   "ਦੱਦਾ",
+   "dud-daa (soft)",
+   "soft d — tongue on the teeth",
+   [
+    [
+     "ਦੰਦ",
+     "dund",
+     "tooth",
+     "🦷"
+    ],
+    [
+     "ਦਰਵਾਜ਼ਾ",
+     "dur-vaa-zaa",
+     "door",
+     "🚪"
+    ],
+    [
+     "ਦੁੱਧ",
+     "dudh",
+     "milk",
+     "🥛"
+    ],
+    [
+     "ਦੀਵਾ",
+     "dee-vaa",
+     "oil lamp",
+     "🪔"
+    ]
+   ]
+  ],
+  [
+   "ਧ",
+   "ਧੱਦਾ",
+   "dhud-daa (soft)",
+   "soft d with a falling tone",
+   [
+    [
+     "ਧਨੁਸ਼",
+     "dha-nush",
+     "bow",
+     "🏹"
+    ],
+    [
+     "ਧੁੱਪ",
+     "dhupp",
+     "sunshine",
+     "🌞"
+    ],
+    [
+     "ਧਾਗਾ",
+     "dhaa-gaa",
+     "thread",
+     "🧵"
+    ]
+   ]
+  ],
+  [
+   "ਨ",
+   "ਨੱਨਾ",
+   "nun-naa",
+   "n as in no",
+   [
+    [
+     "ਨੱਕ",
+     "nukk",
+     "nose",
+     "👃"
+    ],
+    [
+     "ਨਾਰੀਅਲ",
+     "naa-ree-ul",
+     "coconut",
+     "🥥"
+    ],
+    [
+     "ਨਿੰਬੂ",
+     "nim-boo",
+     "lemon",
+     "🍋"
+    ]
+   ]
+  ],
+  [
+   "ਪ",
+   "ਪੱਪਾ",
+   "pup-paa",
+   "p as in spin (no puff)",
+   [
+    [
+     "ਪਤੰਗ",
+     "pa-tung",
+     "kite",
+     "🪁"
+    ],
+    [
+     "ਪਿਆਜ਼",
+     "pyaaz",
+     "onion",
+     "🧅"
+    ],
+    [
+     "ਪੰਛੀ",
+     "pun-chhee",
+     "bird",
+     "🐦"
+    ]
+   ]
+  ],
+  [
+   "ਫ",
+   "ਫੱਫਾ",
+   "phuph-phaa",
+   "p with a puff of air (often like f)",
+   [
+    [
+     "ਫੁੱਲ",
+     "phull",
+     "flower",
+     "🌸"
+    ],
+    [
+     "ਫਲ",
+     "phul",
+     "fruit",
+     "🍇"
+    ],
+    [
+     "ਫੀਤਾ",
+     "phee-taa",
+     "ribbon",
+     "🎀"
+    ]
+   ]
+  ],
+  [
+   "ਬ",
+   "ਬੱਬਾ",
+   "bub-baa",
+   "b as in ball",
+   [
+    [
+     "ਬਿੱਲੀ",
+     "bil-lee",
+     "cat",
+     "🐱"
+    ],
+    [
+     "ਬੱਕਰੀ",
+     "bukk-ree",
+     "goat",
+     "🐐"
+    ],
+    [
+     "ਬੱਤਖ",
+     "butt-ukh",
+     "duck",
+     "🦆"
+    ],
+    [
+     "ਬੈਂਗਣ",
+     "bain-gun",
+     "eggplant",
+     "🍆"
+    ]
+   ]
+  ],
+  [
+   "ਭ",
+   "ਭੱਬਾ",
+   "bhub-baa",
+   "b with a falling tone (bh)",
+   [
+    [
+     "ਭਾਲੂ",
+     "bhaa-loo",
+     "bear",
+     "🐻"
+    ],
+    [
+     "ਭੇਡ",
+     "bhayd",
+     "sheep",
+     "🐑"
+    ],
+    [
+     "ਭਿੰਡੀ",
+     "bhin-dee",
+     "okra",
+     "🫛"
+    ]
+   ]
+  ],
+  [
+   "ਮ",
+   "ਮੱਮਾ",
+   "mum-maa",
+   "m as in mom",
+   [
+    [
+     "ਮੱਛੀ",
+     "much-chhee",
+     "fish",
+     "🐟"
+    ],
+    [
+     "ਮੋਰ",
+     "mor",
+     "peacock",
+     "🦚"
+    ],
+    [
+     "ਮੂਲੀ",
+     "moo-lee",
+     "radish",
+     "🥕"
+    ],
+    [
+     "ਮੇਜ਼",
+     "mayz",
+     "table",
+     "🪑"
+    ]
+   ]
+  ],
+  [
+   "ਯ",
+   "ਯੱਯਾ",
+   "yuy-yaa",
+   "y as in yes",
+   [
+    [
+     "ਯਾਕ",
+     "yaak",
+     "yak",
+     "🐂"
+    ],
+    [
+     "ਯੋਗਾ",
+     "yo-gaa",
+     "yoga",
+     "🧘"
+    ],
+    [
+     "ਯਾਤਰੀ",
+     "yaat-ree",
+     "traveller",
+     "🧳"
+    ]
+   ]
+  ],
+  [
+   "ਰ",
+   "ਰਾਰਾ",
+   "raa-raa",
+   "tapped r (like the tt in butter)",
+   [
+    [
+     "ਰੋਟੀ",
+     "ro-tee",
+     "flatbread",
+     "🫓"
+    ],
+    [
+     "ਰੇਲ",
+     "rayl",
+     "train",
+     "🚆"
+    ],
+    [
+     "ਰਿੱਛ",
+     "richh",
+     "bear",
+     "🐻"
+    ],
+    [
+     "ਰਾਜਾ",
+     "raa-jaa",
+     "king",
+     "👑"
+    ]
+   ]
+  ],
+  [
+   "ਲ",
+   "ਲੱਲਾ",
+   "lul-laa",
+   "l as in love",
+   [
+    [
+     "ਲੂੰਬੜੀ",
+     "loom-ba-ree",
+     "fox",
+     "🦊"
+    ],
+    [
+     "ਲੱਡੂ",
+     "lud-doo",
+     "laddoo (sweet)",
+     "🍬"
+    ],
+    [
+     "ਲਸਣ",
+     "la-sun",
+     "garlic",
+     "🧄"
+    ]
+   ]
+  ],
+  [
+   "ਵ",
+   "ਵਾਵਾ",
+   "vaa-vaa",
+   "between v and w",
+   [
+    [
+     "ਵਾਲ",
+     "vaal",
+     "hair",
+     "💇"
+    ],
+    [
+     "ਵਰਖਾ",
+     "vur-khaa",
+     "rain",
+     "🌧️"
+    ],
+    [
+     "ਵਾਜਾ",
+     "vaa-jaa",
+     "harmonium",
+     "🎹"
+    ]
+   ]
+  ],
+  [
+   "ੜ",
+   "ੜਾੜਾ",
+   "raa-raa (flapped)",
+   "flapped r — tongue curls and flicks; never starts a word",
+   [
+    [
+     "ਘੋੜਾ",
+     "gho-raa",
+     "horse (ੜ in the middle)",
+     "🐎"
+    ],
+    [
+     "ਘੜੀ",
+     "ghu-ree",
+     "clock (ੜ in the middle)",
+     "⏰"
+    ]
+   ]
+  ]
+ ],
+ "vocab": [
+  [
+   "age",
+   "ਉਮਰ",
+   "oo-mer",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "arm",
+   "ਬਾਂਹ",
+   "baa(n)",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "apple",
+   "ਸੇਬ",
+   "saib",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "air",
+   "ਹਵਾ",
+   "h-vaa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "alone",
+   "ਇਕੱਲਾ",
+   "ik-ull-aa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "angry",
+   "ਗੁੱਸੇ",
+   "goo-say",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "anyone",
+   "ਕੋਈ ਵੀ",
+   "koi-vee",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "answer",
+   "ਜਵਾਬ",
+   "ja-vaab",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "army",
+   "ਫ਼ੌਜ",
+   "fauj",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "ask",
+   "ਪੁੱਛਣਾ",
+   "puch-naa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "attack",
+   "ਹਮਲਾ",
+   "hum-laa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "autumn",
+   "ਪੱਤਝੜ",
+   "putt-chud",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "away",
+   "ਇੱਧਰ ਹੋ ਜਾਓ",
+   "idhar hojo",
+   {
+    "src": "teacher",
+    "alt": [
+     "ਦੂਰ"
+    ],
+    "check": "\"idhar ho jao\" means \"move over here\". The usual word for \"away / far\" is ਦੂਰ (door)."
+   }
+  ],
+  [
+   "baby",
+   "ਬੱਚਾ",
+   "buch-aa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "bad",
+   "ਬੁਰਾ",
+   "bu-raa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "ball",
+   "ਗੇਂਦ",
+   "gaind",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "basket",
+   "ਟੋਕਰੀ",
+   "tauk-ree",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "beautiful",
+   "ਸੁੰਦਰ",
+   "soon-der / sohn-aa",
+   {
+    "src": "teacher",
+    "alt": [
+     "ਸੋਹਣਾ"
+    ]
+   }
+  ],
+  [
+   "before",
+   "ਪਹਿਲਾਂ",
+   "peh-laa(n)",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "after",
+   "ਬਾਅਦ",
+   "baad",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "begin",
+   "ਸ਼ੁਰੂ",
+   "shoo-roo",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "behind",
+   "ਪਿੱਛੇ",
+   "pi-chay",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "below",
+   "ਥੱਲੇ",
+   "thull-ay",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "better",
+   "ਬਿਹਤਰ",
+   "baih-ter",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "big",
+   "ਵੱਡਾ",
+   "vud-daa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "bird",
+   "ਪੰਛੀ",
+   "pun-chee",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "birthday",
+   "ਜਨਮ ਦਿਨ",
+   "janam-din",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "blood",
+   "ਖ਼ੂਨ",
+   "khoon",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "blue",
+   "ਨੀਲਾ",
+   "nee-la",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "boat",
+   "ਕਿਸ਼ਤੀ",
+   "kish-tee",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "body",
+   "ਸਰੀਰ",
+   "sa-reer",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "bone",
+   "ਹੱਡੀ",
+   "hadee",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "book",
+   "ਕਿਤਾਬ",
+   "ki-taab",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "born",
+   "ਪੈਦਾ",
+   "paidaa",
+   {
+    "src": "teacher",
+    "note": "as in ਪੈਦਾ ਹੋਇਆ — was born"
+   }
+  ],
+  [
+   "borrow",
+   "ਉਧਾਰ",
+   "udhaar",
+   {
+    "src": "teacher",
+    "note": "ਉਧਾਰ ਲੈਣਾ — to borrow"
+   }
+  ],
+  [
+   "both",
+   "ਦੋਨੋਂ",
+   "dono",
+   {
+    "src": "teacher",
+    "alt": [
+     "ਦੋਵੇਂ"
+    ]
+   }
+  ],
+  [
+   "box",
+   "ਡੱਬਾ",
+   "dabaa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "boy",
+   "ਮੁੰਡਾ",
+   "mun-daa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "bus",
+   "ਬੱਸ",
+   "bus",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "brave",
+   "ਬਹਾਦਰ",
+   "bhaadar",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "bread",
+   "ਡਬਲ ਰੋਟੀ",
+   "double roti",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "breathe",
+   "ਸਾਹ ਲੈਣਾ",
+   "saah-lai-nah",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "bell",
+   "ਘੰਟੀ",
+   "ghan-tee",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "fire",
+   "ਅੱਗ",
+   "ugg",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "star",
+   "ਤਾਰਾ",
+   "taa-raa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "tree",
+   "ਰੁੱਖ",
+   "rookh",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "time",
+   "ਸਮਾਂ",
+   "s-maa(n)",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "man",
+   "ਆਦਮੀ",
+   "aad-mee",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "night",
+   "ਰਾਤ",
+   "raat",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "chocolate",
+   "ਚਾਕਲੇਟ",
+   "chaak-late",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "garden",
+   "ਬਾਗ਼",
+   "baag",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "hand",
+   "ਹੱਥ",
+   "hath",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "ground",
+   "ਜ਼ਮੀਨ",
+   "za-meen",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "bear",
+   "ਭਾਲੂ",
+   "bhaa-loo",
+   {
+    "src": "teacher",
+    "alt": [
+     "ਰਿੱਛ"
+    ]
+   }
+  ],
+  [
+   "letter",
+   "ਚਿੱਠੀ",
+   "cheethee",
+   {
+    "src": "teacher",
+    "note": "a letter you mail (not an alphabet letter)"
+   }
+  ],
+  [
+   "seed",
+   "ਬੀਜ",
+   "beej",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "bed",
+   "ਬਿਸਤਰਾ",
+   "bis-traa",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "story",
+   "ਕਹਾਣੀ",
+   "k-haa-nee",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "friend",
+   "ਦੋਸਤ",
+   "dost",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "thing",
+   "ਚੀਜ਼",
+   "cheez",
+   {
+    "src": "teacher"
+   }
+  ],
+  [
+   "what",
+   "ਕੀ",
+   "kee",
+   {
+    "src": "generated",
+    "cat": "questions"
+   }
+  ],
+  [
+   "who",
+   "ਕੌਣ",
+   "kaun",
+   {
+    "src": "generated",
+    "cat": "questions"
+   }
+  ],
+  [
+   "where",
+   "ਕਿੱਥੇ",
+   "kith-ay",
+   {
+    "src": "generated",
+    "cat": "questions"
+   }
+  ],
+  [
+   "when",
+   "ਕਦੋਂ",
+   "ka-do(n)",
+   {
+    "src": "generated",
+    "cat": "questions"
+   }
+  ],
+  [
+   "why",
+   "ਕਿਉਂ",
+   "kyo(n)",
+   {
+    "src": "generated",
+    "cat": "questions"
+   }
+  ],
+  [
+   "how",
+   "ਕਿਵੇਂ",
+   "ki-vay(n)",
+   {
+    "src": "generated",
+    "cat": "questions"
+   }
+  ],
+  [
+   "how much",
+   "ਕਿੰਨਾ",
+   "kin-naa",
+   {
+    "src": "generated",
+    "cat": "questions",
+    "alt": [
+     "ਕਿੰਨੇ"
+    ]
+   }
+  ],
+  [
+   "which",
+   "ਕਿਹੜਾ",
+   "keh-raa",
+   {
+    "src": "generated",
+    "cat": "questions"
+   }
+  ],
+  [
+   "one",
+   "ਇੱਕ",
+   "ikk",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "two",
+   "ਦੋ",
+   "do",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "three",
+   "ਤਿੰਨ",
+   "tinn",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "four",
+   "ਚਾਰ",
+   "chaar",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "five",
+   "ਪੰਜ",
+   "punj",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "six",
+   "ਛੇ",
+   "chhay",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "seven",
+   "ਸੱਤ",
+   "sutt",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "eight",
+   "ਅੱਠ",
+   "utth",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "nine",
+   "ਨੌਂ",
+   "nau(n)",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "ten",
+   "ਦਸ",
+   "dus",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "zero",
+   "ਸਿਫ਼ਰ",
+   "sif-ur",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "twenty",
+   "ਵੀਹ",
+   "veeh",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "hundred",
+   "ਸੌ",
+   "sau",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "red",
+   "ਲਾਲ",
+   "laal",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "green",
+   "ਹਰਾ",
+   "hur-aa",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "yellow",
+   "ਪੀਲਾ",
+   "pee-laa",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "white",
+   "ਚਿੱਟਾ",
+   "chitt-aa",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "black",
+   "ਕਾਲਾ",
+   "kaa-laa",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "orange (color)",
+   "ਸੰਤਰੀ",
+   "sun-tree",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "pink",
+   "ਗੁਲਾਬੀ",
+   "gu-laa-bee",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "brown",
+   "ਭੂਰਾ",
+   "bhoo-raa",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "purple",
+   "ਜਾਮਨੀ",
+   "jaam-nee",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "grey",
+   "ਸਲੇਟੀ",
+   "sa-lay-tee",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "milk",
+   "ਦੁੱਧ",
+   "dudh",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "tea",
+   "ਚਾਹ",
+   "chaa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "flatbread (roti)",
+   "ਰੋਟੀ",
+   "ro-tee",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "rice",
+   "ਚੌਲ",
+   "chaul",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "lentils (dal)",
+   "ਦਾਲ",
+   "daal",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "vegetable",
+   "ਸਬਜ਼ੀ",
+   "sub-zee",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "fruit",
+   "ਫਲ",
+   "phul",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "banana",
+   "ਕੇਲਾ",
+   "kay-laa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "mango",
+   "ਅੰਬ",
+   "umb",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "egg",
+   "ਆਂਡਾ",
+   "aan-daa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "potato",
+   "ਆਲੂ",
+   "aa-loo",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "onion",
+   "ਪਿਆਜ਼",
+   "pyaaz",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "yogurt",
+   "ਦਹੀਂ",
+   "da-hee(n)",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "butter",
+   "ਮੱਖਣ",
+   "mukh-khun",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "paneer (cheese)",
+   "ਪਨੀਰ",
+   "pa-neer",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "sugar",
+   "ਖੰਡ",
+   "khund",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "salt",
+   "ਲੂਣ",
+   "loon",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "juice",
+   "ਜੂਸ",
+   "joos",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "sweet",
+   "ਮਿੱਠਾ",
+   "mitt-haa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "phone",
+   "ਫ਼ੋਨ",
+   "phone",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "key",
+   "ਚਾਬੀ",
+   "chaa-bee",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "chair",
+   "ਕੁਰਸੀ",
+   "kur-see",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "table",
+   "ਮੇਜ਼",
+   "mayz",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "door",
+   "ਦਰਵਾਜ਼ਾ",
+   "dur-vaa-zaa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "window",
+   "ਖਿੜਕੀ",
+   "khir-kee",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "bag",
+   "ਬੈਗ",
+   "baig",
+   {
+    "src": "generated",
+    "cat": "items",
+    "alt": [
+     "ਥੈਲਾ"
+    ]
+   }
+  ],
+  [
+   "cup",
+   "ਕੱਪ",
+   "kup",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "glass",
+   "ਗਲਾਸ",
+   "ga-laas",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "plate",
+   "ਥਾਲੀ",
+   "thaa-lee",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "spoon",
+   "ਚਮਚਾ",
+   "chum-chaa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "clock",
+   "ਘੜੀ",
+   "ghu-ree",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "shoe",
+   "ਜੁੱਤੀ",
+   "jutt-ee",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "clothes",
+   "ਕੱਪੜੇ",
+   "kup-ray",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "money",
+   "ਪੈਸੇ",
+   "pai-say",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "pen",
+   "ਕਲਮ",
+   "kul-um",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "knife",
+   "ਚਾਕੂ",
+   "chaa-koo",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "car",
+   "ਗੱਡੀ",
+   "gud-dee",
+   {
+    "src": "generated",
+    "cat": "items",
+    "alt": [
+     "ਕਾਰ"
+    ]
+   }
+  ],
+  [
+   "soap",
+   "ਸਾਬਣ",
+   "saa-bun",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "towel",
+   "ਤੌਲੀਆ",
+   "tau-lee-aa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "toothbrush",
+   "ਬੁਰਸ਼",
+   "bu-rush",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "umbrella",
+   "ਛਤਰੀ",
+   "chhut-ree",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "blanket",
+   "ਕੰਬਲ",
+   "kum-bul",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "pillow",
+   "ਸਿਰਹਾਣਾ",
+   "sir-haa-naa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "girl",
+   "ਕੁੜੀ",
+   "ku-ree",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "woman",
+   "ਔਰਤ",
+   "au-rut",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "family",
+   "ਪਰਿਵਾਰ",
+   "pur-ee-vaar",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "son",
+   "ਪੁੱਤਰ",
+   "putt-ur",
+   {
+    "src": "generated",
+    "cat": "people",
+    "alt": [
+     "ਪੁੱਤ"
+    ]
+   }
+  ],
+  [
+   "daughter",
+   "ਧੀ",
+   "dhee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "husband",
+   "ਪਤੀ",
+   "pa-tee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "wife",
+   "ਪਤਨੀ",
+   "put-nee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "people",
+   "ਲੋਕ",
+   "lok",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "neighbour",
+   "ਗੁਆਂਢੀ",
+   "gu-aan-dhee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "guest",
+   "ਮਹਿਮਾਨ",
+   "meh-maan",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "teacher",
+   "ਅਧਿਆਪਕ",
+   "udh-yaa-puk",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "doctor",
+   "ਡਾਕਟਰ",
+   "daak-ter",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "king",
+   "ਰਾਜਾ",
+   "raa-jaa",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "queen",
+   "ਰਾਣੀ",
+   "raa-nee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "day",
+   "ਦਿਨ",
+   "din",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "today",
+   "ਅੱਜ",
+   "ujj",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "tomorrow",
+   "ਕੱਲ੍ਹ",
+   "kull",
+   {
+    "src": "generated",
+    "cat": "time",
+    "note": "ਕੱਲ੍ਹ means both \"tomorrow\" and \"yesterday\""
+   }
+  ],
+  [
+   "yesterday",
+   "ਕੱਲ੍ਹ",
+   "kull",
+   {
+    "src": "generated",
+    "cat": "time",
+    "note": "ਕੱਲ੍ਹ means both \"yesterday\" and \"tomorrow\""
+   }
+  ],
+  [
+   "now",
+   "ਹੁਣ",
+   "hun",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "morning",
+   "ਸਵੇਰ",
+   "suv-ayr",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "evening",
+   "ਸ਼ਾਮ",
+   "shaam",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "week",
+   "ਹਫ਼ਤਾ",
+   "huf-taa",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "month",
+   "ਮਹੀਨਾ",
+   "ma-hee-naa",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "year",
+   "ਸਾਲ",
+   "saal",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "hour",
+   "ਘੰਟਾ",
+   "ghun-taa",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "Monday",
+   "ਸੋਮਵਾਰ",
+   "som-vaar",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "Tuesday",
+   "ਮੰਗਲਵਾਰ",
+   "mun-gul-vaar",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "Wednesday",
+   "ਬੁੱਧਵਾਰ",
+   "budh-vaar",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "Thursday",
+   "ਵੀਰਵਾਰ",
+   "veer-vaar",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "Friday",
+   "ਸ਼ੁੱਕਰਵਾਰ",
+   "shuk-kur-vaar",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "Saturday",
+   "ਸ਼ਨਿੱਚਰਵਾਰ",
+   "sha-nich-chur-vaar",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "Sunday",
+   "ਐਤਵਾਰ",
+   "ait-vaar",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "always",
+   "ਹਮੇਸ਼ਾ",
+   "ha-may-shaa",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "late",
+   "ਦੇਰ",
+   "dayr",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "eat",
+   "ਖਾਣਾ",
+   "khaa-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "drink",
+   "ਪੀਣਾ",
+   "pee-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "come",
+   "ਆਉਣਾ",
+   "aa-oo-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "go",
+   "ਜਾਣਾ",
+   "jaa-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "sit",
+   "ਬੈਠਣਾ",
+   "baith-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "stand",
+   "ਖੜ੍ਹਨਾ",
+   "khar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "sleep",
+   "ਸੌਣਾ",
+   "sau-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "give",
+   "ਦੇਣਾ",
+   "day-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "take",
+   "ਲੈਣਾ",
+   "lai-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "see",
+   "ਦੇਖਣਾ",
+   "daykh-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "listen",
+   "ਸੁਣਨਾ",
+   "sun-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "speak",
+   "ਬੋਲਣਾ",
+   "bol-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "read",
+   "ਪੜ੍ਹਨਾ",
+   "par-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "write",
+   "ਲਿਖਣਾ",
+   "likh-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "open",
+   "ਖੋਲ੍ਹਣਾ",
+   "khol-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "close",
+   "ਬੰਦ ਕਰਨਾ",
+   "bund kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "wash",
+   "ਧੋਣਾ",
+   "dho-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "cook",
+   "ਪਕਾਉਣਾ",
+   "pa-kaa-oo-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "buy",
+   "ਖ਼ਰੀਦਣਾ",
+   "kha-reed-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "wait",
+   "ਉਡੀਕਣਾ",
+   "u-deek-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "know",
+   "ਜਾਣਨਾ",
+   "jaan-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "want",
+   "ਚਾਹੁਣਾ",
+   "chaa-hu-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "play",
+   "ਖੇਡਣਾ",
+   "khed-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "walk",
+   "ਤੁਰਨਾ",
+   "tur-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "run",
+   "ਦੌੜਨਾ",
+   "daur-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "laugh",
+   "ਹੱਸਣਾ",
+   "huss-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "cry",
+   "ਰੋਣਾ",
+   "ro-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "jump",
+   "ਛਾਲ ਮਾਰਨਾ",
+   "chhaal maar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "good",
+   "ਚੰਗਾ",
+   "chun-gaa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "little",
+   "ਛੋਟਾ",
+   "chho-taa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "hot",
+   "ਗਰਮ",
+   "gur-um",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "cold",
+   "ਠੰਢਾ",
+   "thun-daa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "new",
+   "ਨਵਾਂ",
+   "nuv-aa(n)",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "old",
+   "ਪੁਰਾਣਾ",
+   "pu-raa-naa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "happy",
+   "ਖ਼ੁਸ਼",
+   "khush",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "sad",
+   "ਉਦਾਸ",
+   "u-daas",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "hungry",
+   "ਭੁੱਖਾ",
+   "bhukh-aa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "thirsty",
+   "ਪਿਆਸਾ",
+   "pyaa-saa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "tired",
+   "ਥੱਕਿਆ",
+   "thuk-kyaa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "clean",
+   "ਸਾਫ਼",
+   "saaf",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "dirty",
+   "ਗੰਦਾ",
+   "gun-daa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "fast",
+   "ਤੇਜ਼",
+   "tayz",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "slow",
+   "ਹੌਲੀ",
+   "hau-lee",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "quickly",
+   "ਛੇਤੀ",
+   "chhay-tee",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "quiet",
+   "ਚੁੱਪ",
+   "chupp",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "a lot / very",
+   "ਬਹੁਤ",
+   "ba-hut",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "a little",
+   "ਥੋੜ੍ਹਾ",
+   "tho-raa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "dark",
+   "ਹਨੇਰਾ",
+   "hun-ay-raa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "young",
+   "ਜਵਾਨ",
+   "juv-aan",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "head",
+   "ਸਿਰ",
+   "sir",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "eye",
+   "ਅੱਖ",
+   "ukkh",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "ear",
+   "ਕੰਨ",
+   "kunn",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "nose",
+   "ਨੱਕ",
+   "nukk",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "mouth",
+   "ਮੂੰਹ",
+   "moo(n)h",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "tooth",
+   "ਦੰਦ",
+   "dund",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "face",
+   "ਚਿਹਰਾ",
+   "cheh-raa",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "hair",
+   "ਵਾਲ",
+   "vaal",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "leg",
+   "ਲੱਤ",
+   "lutt",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "foot",
+   "ਪੈਰ",
+   "pair",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "finger",
+   "ਉਂਗਲ",
+   "oon-gul",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "stomach",
+   "ਢਿੱਡ",
+   "dhidd",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "back",
+   "ਪਿੱਠ",
+   "pitth",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "heart",
+   "ਦਿਲ",
+   "dil",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "room",
+   "ਕਮਰਾ",
+   "kum-raa",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "kitchen",
+   "ਰਸੋਈ",
+   "rus-oi",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "bathroom",
+   "ਬਾਥਰੂਮ",
+   "baath-room",
+   {
+    "src": "generated",
+    "cat": "places",
+    "alt": [
+     "ਗੁਸਲਖਾਨਾ"
+    ]
+   }
+  ],
+  [
+   "school",
+   "ਸਕੂਲ",
+   "skool",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "shop",
+   "ਦੁਕਾਨ",
+   "du-kaan",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "market",
+   "ਬਜ਼ਾਰ",
+   "ba-zaar",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "gurdwara",
+   "ਗੁਰਦੁਆਰਾ",
+   "gur-du-aa-raa",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "hospital",
+   "ਹਸਪਤਾਲ",
+   "hus-pa-taal",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "park",
+   "ਪਾਰਕ",
+   "paark",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "city",
+   "ਸ਼ਹਿਰ",
+   "sheh-her",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "village",
+   "ਪਿੰਡ",
+   "pind",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "road",
+   "ਸੜਕ",
+   "sur-uk",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "river",
+   "ਦਰਿਆ",
+   "dur-yaa",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "zoo",
+   "ਚਿੜੀਆਘਰ",
+   "chi-ree-aa-ghur",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "here",
+   "ਇੱਥੇ",
+   "ith-ay",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "there",
+   "ਉੱਥੇ",
+   "uth-ay",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "near",
+   "ਨੇੜੇ",
+   "nay-ray",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "far",
+   "ਦੂਰ",
+   "door",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "up",
+   "ਉੱਪਰ",
+   "upp-er",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "under",
+   "ਹੇਠਾਂ",
+   "hay-thaa(n)",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "inside",
+   "ਅੰਦਰ",
+   "un-der",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "outside",
+   "ਬਾਹਰ",
+   "baa-her",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "left",
+   "ਖੱਬਾ",
+   "khubb-aa",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "right (side)",
+   "ਸੱਜਾ",
+   "suj-jaa",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "dog",
+   "ਕੁੱਤਾ",
+   "kut-taa",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "cat",
+   "ਬਿੱਲੀ",
+   "bill-ee",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "cow",
+   "ਗਾਂ",
+   "gaa(n)",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "horse",
+   "ਘੋੜਾ",
+   "gho-raa",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "goat",
+   "ਬੱਕਰੀ",
+   "bukk-ree",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "hen",
+   "ਮੁਰਗੀ",
+   "mur-gee",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "elephant",
+   "ਹਾਥੀ",
+   "haa-thee",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "lion",
+   "ਸ਼ੇਰ",
+   "shayr",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "mouse",
+   "ਚੂਹਾ",
+   "choo-haa",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "fish",
+   "ਮੱਛੀ",
+   "much-ee",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "monkey",
+   "ਬਾਂਦਰ",
+   "baan-der",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "parrot",
+   "ਤੋਤਾ",
+   "to-taa",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "snake",
+   "ਸੱਪ",
+   "supp",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "sun",
+   "ਸੂਰਜ",
+   "soo-ruj",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "moon",
+   "ਚੰਨ",
+   "chunn",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "sky",
+   "ਅਸਮਾਨ",
+   "us-maan",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "rain",
+   "ਮੀਂਹ",
+   "mee(n)h",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "flower",
+   "ਫੁੱਲ",
+   "phull",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "leaf",
+   "ਪੱਤਾ",
+   "putt-aa",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "grass",
+   "ਘਾਹ",
+   "ghaa",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "ice",
+   "ਬਰਫ਼",
+   "bur-uf",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "earth",
+   "ਧਰਤੀ",
+   "dhur-tee",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "name",
+   "ਨਾਮ",
+   "naam",
+   {
+    "src": "generated",
+    "cat": "other",
+    "alt": [
+     "ਨਾਂ"
+    ]
+   }
+  ],
+  [
+   "work",
+   "ਕੰਮ",
+   "kumm",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "love",
+   "ਪਿਆਰ",
+   "pyaar",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "light",
+   "ਰੌਸ਼ਨੀ",
+   "raush-nee",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "voice",
+   "ਆਵਾਜ਼",
+   "aa-vaaz",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "I",
+   "ਮੈਂ",
+   "mai(n)",
+   {
+    "src": "generated",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "you (respectful)",
+   "ਤੁਸੀਂ",
+   "tu-see(n)",
+   {
+    "src": "generated",
+    "note": "use with elders, guests and people you don't know",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "you (informal)",
+   "ਤੂੰ",
+   "too(n)",
+   {
+    "src": "generated",
+    "note": "only with close friends, younger kids or family",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "he / she (that one)",
+   "ਉਹ",
+   "oh",
+   {
+    "src": "generated",
+    "note": "also means \"that\" and \"they\"",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "this / he / she (here)",
+   "ਇਹ",
+   "eh",
+   {
+    "src": "generated",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "we",
+   "ਅਸੀਂ",
+   "a-see(n)",
+   {
+    "src": "generated",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "my",
+   "ਮੇਰਾ",
+   "may-raa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੇਰੀ",
+     "ਮੇਰੇ"
+    ],
+    "note": "ਮੇਰਾ before boy-words, ਮੇਰੀ before girl-words, ਮੇਰੇ for plurals",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "your (respectful)",
+   "ਤੁਹਾਡਾ",
+   "tu-haa-daa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਤੁਹਾਡੀ",
+     "ਤੁਹਾਡੇ"
+    ],
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "our",
+   "ਸਾਡਾ",
+   "saa-daa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਸਾਡੀ",
+     "ਸਾਡੇ"
+    ],
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "his / her",
+   "ਉਸਦਾ",
+   "us-daa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਉਹਦਾ",
+     "ਉਸਦੀ"
+    ],
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "and",
+   "ਅਤੇ",
+   "a-tay",
+   {
+    "src": "generated",
+    "alt": [
+     "ਤੇ"
+    ],
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "or",
+   "ਜਾਂ",
+   "jaa(n)",
+   {
+    "src": "generated",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "but",
+   "ਪਰ",
+   "pur",
+   {
+    "src": "generated",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "with",
+   "ਨਾਲ",
+   "naal",
+   {
+    "src": "generated",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "in",
+   "ਵਿੱਚ",
+   "vich",
+   {
+    "src": "generated",
+    "alt": [
+     "'ਚ"
+    ],
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "from",
+   "ਤੋਂ",
+   "to(n)",
+   {
+    "src": "generated",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "also / too",
+   "ਵੀ",
+   "vee",
+   {
+    "src": "generated",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "all / everyone",
+   "ਸਾਰੇ",
+   "saa-ray",
+   {
+    "src": "generated",
+    "cat": "pronouns"
+   }
+  ],
+  [
+   "Waheguru (God, the Wondrous Lord)",
+   "ਵਾਹਿਗੁਰੂ",
+   "vaa-hi-gu-roo / waheguru",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Guru (the enlightener)",
+   "ਗੁਰੂ",
+   "gu-roo",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Guru Granth Sahib (the living Guru, our scripture)",
+   "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ",
+   "gu-roo granth saa-hib",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Sikh",
+   "ਸਿੱਖ",
+   "sikh",
+   {
+    "src": "generated",
+    "note": "means \"learner / disciple\"",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Ardas (standing prayer)",
+   "ਅਰਦਾਸ",
+   "ar-daas",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Langar (free community kitchen)",
+   "ਲੰਗਰ",
+   "lung-ar / langar",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Karah Parshad (blessed sweet offering)",
+   "ਕੜਾਹ ਪ੍ਰਸ਼ਾਦ",
+   "ka-raah pr-shaad / karah prashad",
+   {
+    "src": "generated",
+    "alt": [
+     "ਪ੍ਰਸ਼ਾਦ",
+     "ਕੜਾਹ ਪ੍ਰਸਾਦ"
+    ],
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Sangat (the congregation)",
+   "ਸੰਗਤ",
+   "sun-gut / sangat",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Seva (selfless service)",
+   "ਸੇਵਾ",
+   "say-vaa / seva",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Kirtan (singing hymns)",
+   "ਕੀਰਤਨ",
+   "keer-tun / kirtan",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Path (reading the scripture)",
+   "ਪਾਠ",
+   "paath",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Shabad (hymn)",
+   "ਸ਼ਬਦ",
+   "sha-bud / shabad",
+   {
+    "src": "generated",
+    "note": "also just means \"word\"",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Darbar Sahib (the main prayer hall)",
+   "ਦਰਬਾਰ ਸਾਹਿਬ",
+   "dur-baar saa-hib",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "shoe room (Joda Ghar)",
+   "ਜੋੜਾ ਘਰ",
+   "jo-raa ghur",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "head covering (rumal)",
+   "ਰੁਮਾਲ",
+   "ru-maal",
+   {
+    "src": "generated",
+    "note": "a scarf or patka to cover your head inside",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "to bow before the Guru (matha tekna)",
+   "ਮੱਥਾ ਟੇਕਣਾ",
+   "mut-thaa tayk-naa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "volunteer (sevadar)",
+   "ਸੇਵਾਦਾਰ",
+   "say-vaa-daar",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "donation box (golak)",
+   "ਗੋਲਕ",
+   "go-luk",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Nishan Sahib (the Sikh flag)",
+   "ਨਿਸ਼ਾਨ ਸਾਹਿਬ",
+   "ni-shaan saa-hib",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Khanda (the Sikh emblem)",
+   "ਖੰਡਾ",
+   "khun-daa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "do",
+   "ਕਰਨਾ",
+   "kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "make",
+   "ਬਣਾਉਣਾ",
+   "ba-naa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "say",
+   "ਕਹਿਣਾ",
+   "keh-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "tell",
+   "ਦੱਸਣਾ",
+   "duss-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "understand",
+   "ਸਮਝਣਾ",
+   "sa-majh-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "think",
+   "ਸੋਚਣਾ",
+   "soch-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "learn",
+   "ਸਿੱਖਣਾ",
+   "sikh-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "teach",
+   "ਸਿਖਾਉਣਾ",
+   "si-khaa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "bring",
+   "ਲਿਆਉਣਾ",
+   "li-aa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "put / keep",
+   "ਰੱਖਣਾ",
+   "rukh-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "find / look for",
+   "ਲੱਭਣਾ",
+   "lubh-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "meet",
+   "ਮਿਲਣਾ",
+   "mil-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "call (someone over)",
+   "ਬੁਲਾਉਣਾ",
+   "bu-laa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "live / stay",
+   "ਰਹਿਣਾ",
+   "reh-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "wake up",
+   "ਉੱਠਣਾ",
+   "utth-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "bathe",
+   "ਨਹਾਉਣਾ",
+   "na-haa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "remember",
+   "ਯਾਦ ਕਰਨਾ",
+   "yaad kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "forget",
+   "ਭੁੱਲਣਾ",
+   "bhull-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "help (to help)",
+   "ਮਦਦ ਕਰਨਾ",
+   "ma-dud kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "can (be able to)",
+   "ਸਕਣਾ",
+   "sak-naa",
+   {
+    "src": "generated",
+    "note": "ਮੈਂ ਕਰ ਸਕਦਾ ਹਾਂ — I can do it",
+    "cat": "actions"
+   }
+  ],
+  [
+   "parents",
+   "ਮਾਪੇ",
+   "maa-pay",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮਾਂ-ਬਾਪ"
+    ],
+    "cat": "people"
+   }
+  ],
+  [
+   "children",
+   "ਬੱਚੇ",
+   "buch-chay",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "relatives",
+   "ਰਿਸ਼ਤੇਦਾਰ",
+   "rish-tay-daar",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "father-in-law",
+   "ਸਹੁਰਾ",
+   "sau-raa",
+   {
+    "src": "generated",
+    "note": "add ਜੀ when talking to him: ਸਹੁਰਾ ਜੀ / ਪਾਪਾ ਜੀ",
+    "cat": "people"
+   }
+  ],
+  [
+   "mother-in-law",
+   "ਸੱਸ",
+   "suss",
+   {
+    "src": "generated",
+    "note": "add ਜੀ: ਸੱਸ ਜੀ / ਮੰਮੀ ਜੀ",
+    "cat": "people"
+   }
+  ],
+  [
+   "son-in-law",
+   "ਜਵਾਈ",
+   "ja-vaa-ee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "daughter-in-law",
+   "ਨੂੰਹ",
+   "noo(n)h",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "grandson (son's son)",
+   "ਪੋਤਾ",
+   "po-taa",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "granddaughter (son's daughter)",
+   "ਪੋਤੀ",
+   "po-tee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "grandson (daughter's son)",
+   "ਦੋਹਤਾ",
+   "doh-taa",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "granddaughter (daughter's daughter)",
+   "ਦੋਹਤੀ",
+   "doh-tee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "nephew (brother's son)",
+   "ਭਤੀਜਾ",
+   "bha-tee-jaa",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "niece (brother's daughter)",
+   "ਭਤੀਜੀ",
+   "bha-tee-jee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "nephew (sister's son)",
+   "ਭਾਣਜਾ",
+   "bhaan-jaa",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "niece (sister's daughter)",
+   "ਭਾਣਜੀ",
+   "bhaan-jee",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "aunt (dad's sister)",
+   "ਭੂਆ",
+   "bhoo-aa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਭੂਆ ਜੀ"
+    ],
+    "cat": "people"
+   }
+  ],
+  [
+   "uncle (mom's sister's husband)",
+   "ਮਾਸੜ",
+   "maa-sur",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮਾਸੜ ਜੀ"
+    ],
+    "cat": "people"
+   }
+  ],
+  [
+   "brother-in-law (sister's husband)",
+   "ਜੀਜਾ",
+   "jee-jaa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਜੀਜਾ ਜੀ"
+    ],
+    "cat": "people"
+   }
+  ],
+  [
+   "sister-in-law (brother's wife)",
+   "ਭਰਜਾਈ",
+   "bhar-jaa-ee",
+   {
+    "src": "generated",
+    "alt": [
+     "ਭਾਬੀ",
+     "ਭਾਬੀ ਜੀ"
+    ],
+    "cat": "people"
+   }
+  ],
+  [
+   "brother-in-law (wife's brother)",
+   "ਸਾਲਾ",
+   "saa-laa",
+   {
+    "src": "generated",
+    "cat": "people"
+   }
+  ],
+  [
+   "eleven",
+   "ਗਿਆਰਾਂ",
+   "gyaa-raa(n)",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "twelve",
+   "ਬਾਰਾਂ",
+   "baa-raa(n)",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "thirteen",
+   "ਤੇਰਾਂ",
+   "tay-raa(n)",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "fourteen",
+   "ਚੌਦਾਂ",
+   "chau-daa(n)",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "fifteen",
+   "ਪੰਦਰਾਂ",
+   "pun-draa(n)",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "sixteen",
+   "ਸੋਲਾਂ",
+   "so-laa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਸੋਲ਼ਾਂ"
+    ],
+    "cat": "numbers"
+   }
+  ],
+  [
+   "seventeen",
+   "ਸਤਾਰਾਂ",
+   "sa-taa-raa(n)",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "eighteen",
+   "ਅਠਾਰਾਂ",
+   "a-thaa-raa(n)",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "nineteen",
+   "ਉੱਨੀ",
+   "un-nee",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "thirty",
+   "ਤੀਹ",
+   "teeh",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "forty",
+   "ਚਾਲੀ",
+   "chaa-lee",
+   {
+    "src": "generated",
+    "alt": [
+     "ਚਾਲ਼ੀ"
+    ],
+    "cat": "numbers"
+   }
+  ],
+  [
+   "fifty",
+   "ਪੰਜਾਹ",
+   "pun-jaah",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "sixty",
+   "ਸੱਠ",
+   "sutth",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "seventy",
+   "ਸੱਤਰ",
+   "sut-tur",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "eighty",
+   "ਅੱਸੀ",
+   "us-see",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "ninety",
+   "ਨੱਬੇ",
+   "nub-bay",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "thousand",
+   "ਹਜ਼ਾਰ",
+   "ha-zaar",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "one hundred thousand (lakh)",
+   "ਲੱਖ",
+   "lukh",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "half",
+   "ਅੱਧਾ",
+   "uddh-aa",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "first",
+   "ਪਹਿਲਾ",
+   "peh-laa",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "wheat flour (atta)",
+   "ਆਟਾ",
+   "aa-taa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "chickpeas (chole)",
+   "ਛੋਲੇ",
+   "chho-lay",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "mustard greens (saag)",
+   "ਸਾਗ",
+   "saag",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "corn flatbread (makki roti)",
+   "ਮੱਕੀ ਦੀ ਰੋਟੀ",
+   "muk-kee dee ro-tee",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "lassi (yogurt drink)",
+   "ਲੱਸੀ",
+   "lus-see",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "ghee (clarified butter)",
+   "ਘਿਓ",
+   "ghyo",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "oil",
+   "ਤੇਲ",
+   "tayl",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "chili pepper",
+   "ਮਿਰਚ",
+   "mirch",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "tomato",
+   "ਟਮਾਟਰ",
+   "ta-maa-tur",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "carrot",
+   "ਗਾਜਰ",
+   "gaa-jur",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "cucumber",
+   "ਖੀਰਾ",
+   "khee-raa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "garlic",
+   "ਲਸਣ",
+   "la-sun",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "ginger",
+   "ਅਦਰਕ",
+   "ud-ruk",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "lemon",
+   "ਨਿੰਬੂ",
+   "nim-boo",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "orange (fruit)",
+   "ਸੰਤਰਾ",
+   "sun-traa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "grapes",
+   "ਅੰਗੂਰ",
+   "un-goor",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "sweets (mithai)",
+   "ਮਠਿਆਈ",
+   "ma-thi-aa-ee",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "rice pudding (kheer)",
+   "ਖੀਰ",
+   "kheer",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "fritters (pakoras)",
+   "ਪਕੌੜੇ",
+   "pa-kau-ray",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "breakfast",
+   "ਨਾਸ਼ਤਾ",
+   "naash-taa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "scared",
+   "ਡਰਿਆ",
+   "da-ri-aa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਡਰੀ"
+    ],
+    "note": "ਡਰਿਆ (boy/man) · ਡਰੀ (girl/woman)",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "worried",
+   "ਪਰੇਸ਼ਾਨ",
+   "pa-ray-shaan",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "bored",
+   "ਬੋਰ",
+   "bor",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "shy",
+   "ਸ਼ਰਮੀਲਾ",
+   "shar-mee-laa",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "lazy",
+   "ਆਲਸੀ",
+   "aal-see",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "busy",
+   "ਰੁੱਝਿਆ",
+   "rujh-yaa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਬਿਜ਼ੀ"
+    ],
+    "cat": "feelings"
+   }
+  ],
+  [
+   "free (not busy)",
+   "ਵਿਹਲਾ",
+   "veh-laa",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "ready",
+   "ਤਿਆਰ",
+   "ti-aar",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "surprised",
+   "ਹੈਰਾਨ",
+   "hai-raan",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "fear",
+   "ਡਰ",
+   "dur",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "joy",
+   "ਖ਼ੁਸ਼ੀ",
+   "khu-shee",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "sorrow / pain",
+   "ਦੁੱਖ",
+   "dukh",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "anger",
+   "ਗੁੱਸਾ",
+   "gus-saa",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "kind",
+   "ਦਿਆਲੂ",
+   "di-aa-loo",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "naughty",
+   "ਸ਼ਰਾਰਤੀ",
+   "sha-raar-tee",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "clever",
+   "ਹੁਸ਼ਿਆਰ",
+   "hush-yaar",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "calm",
+   "ਸ਼ਾਂਤ",
+   "shaant",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "patience",
+   "ਸਬਰ",
+   "sa-bur",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "pride",
+   "ਮਾਣ",
+   "maan",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "funny",
+   "ਮਜ਼ਾਕੀਆ",
+   "ma-zaa-kee-aa",
+   {
+    "src": "generated",
+    "cat": "feelings"
+   }
+  ],
+  [
+   "maybe",
+   "ਸ਼ਾਇਦ",
+   "shaa-id",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "together",
+   "ਇਕੱਠੇ",
+   "i-kut-thay",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "because",
+   "ਕਿਉਂਕਿ",
+   "kyo(n)-ki",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "so (that's why)",
+   "ਇਸ ਲਈ",
+   "is la-ee",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "if",
+   "ਜੇ",
+   "jay",
+   {
+    "src": "generated",
+    "alt": [
+     "ਜੇਕਰ"
+    ],
+    "cat": "other"
+   }
+  ],
+  [
+   "without",
+   "ਬਿਨਾਂ",
+   "bi-naa(n)",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "for",
+   "ਲਈ",
+   "la-ee",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "about",
+   "ਬਾਰੇ",
+   "baa-ray",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "until",
+   "ਤੱਕ",
+   "tukk",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "everything",
+   "ਸਭ ਕੁਝ",
+   "subh kujh",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "place",
+   "ਥਾਂ",
+   "thaa(n)",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "talk / matter",
+   "ਗੱਲ",
+   "gull",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "news",
+   "ਖ਼ਬਰ",
+   "kha-bur",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "problem",
+   "ਮੁਸ਼ਕਲ",
+   "mush-kul",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "reason",
+   "ਕਾਰਨ",
+   "kaa-run",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "way / path",
+   "ਰਾਹ",
+   "raah",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "like this",
+   "ਇਸ ਤਰ੍ਹਾਂ",
+   "is ta-raa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਇੰਝ"
+    ],
+    "cat": "other"
+   }
+  ],
+  [
+   "actually",
+   "ਅਸਲ ਵਿੱਚ",
+   "a-sul vich",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "otherwise",
+   "ਨਹੀਂ ਤਾਂ",
+   "na-hee(n) taa(n)",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "almost",
+   "ਲਗਭਗ",
+   "lug-bhug",
+   {
+    "src": "generated",
+    "cat": "other"
+   }
+  ],
+  [
+   "sell",
+   "ਵੇਚਣਾ",
+   "vaych-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "send",
+   "ਭੇਜਣਾ",
+   "bhayj-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "finish",
+   "ਖ਼ਤਮ ਕਰਨਾ",
+   "kha-tum kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "stop (to stop)",
+   "ਰੁਕਣਾ",
+   "ruk-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "sing",
+   "ਗਾਉਣਾ",
+   "gaa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "dance",
+   "ਨੱਚਣਾ",
+   "nuch-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "fall",
+   "ਡਿੱਗਣਾ",
+   "digg-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "drive",
+   "ਚਲਾਉਣਾ",
+   "cha-laa-u-naa",
+   {
+    "src": "generated",
+    "note": "also \"to run / switch on\" a machine",
+    "cat": "actions"
+   }
+  ],
+  [
+   "lose (something)",
+   "ਗੁਆਉਣਾ",
+   "gu-aa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "come back",
+   "ਵਾਪਸ ਆਉਣਾ",
+   "vaa-pus aa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "leave / let go",
+   "ਛੱਡਣਾ",
+   "chhudd-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "hold / catch",
+   "ਫੜਨਾ",
+   "phar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "lift / pick up",
+   "ਚੁੱਕਣਾ",
+   "chukk-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "show",
+   "ਦਿਖਾਉਣਾ",
+   "di-khaa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "change (to change)",
+   "ਬਦਲਣਾ",
+   "ba-dul-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "try",
+   "ਕੋਸ਼ਿਸ਼ ਕਰਨਾ",
+   "ko-shish kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "be / become",
+   "ਹੋਣਾ",
+   "ho-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "reach / arrive",
+   "ਪਹੁੰਚਣਾ",
+   "pa-hunch-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "put on / wear",
+   "ਪਾਉਣਾ",
+   "paa-u-naa",
+   {
+    "src": "generated",
+    "note": "also \"to put in / pour\"",
+    "cat": "actions"
+   }
+  ],
+  [
+   "take off (clothes)",
+   "ਲਾਹੁਣਾ",
+   "laa-hu-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "minute",
+   "ਮਿੰਟ",
+   "mint",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "afternoon",
+   "ਦੁਪਹਿਰ",
+   "du-peh-hur",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "holiday / day off",
+   "ਛੁੱਟੀ",
+   "chhut-tee",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "early",
+   "ਜਲਦੀ",
+   "jul-dee",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "never",
+   "ਕਦੇ ਨਹੀਂ",
+   "ka-day na-hee(n)",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "often",
+   "ਅਕਸਰ",
+   "uk-sur",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "then / after that",
+   "ਫਿਰ",
+   "phir",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "again",
+   "ਦੁਬਾਰਾ",
+   "du-baa-raa",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "once",
+   "ਇੱਕ ਵਾਰ",
+   "ikk vaar",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "still / yet",
+   "ਹਾਲੇ",
+   "haa-lay",
+   {
+    "src": "generated",
+    "alt": [
+     "ਅਜੇ"
+    ],
+    "cat": "time"
+   }
+  ],
+  [
+   "tonight",
+   "ਅੱਜ ਰਾਤ",
+   "ujj raat",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "day after tomorrow",
+   "ਪਰਸੋਂ",
+   "par-so(n)",
+   {
+    "src": "generated",
+    "note": "ਪਰਸੋਂ also means \"day before yesterday\"",
+    "cat": "time"
+   }
+  ],
+  [
+   "winter",
+   "ਸਰਦੀ",
+   "sur-dee",
+   {
+    "src": "generated",
+    "alt": [
+     "ਸਰਦੀਆਂ"
+    ],
+    "cat": "time"
+   }
+  ],
+  [
+   "summer",
+   "ਗਰਮੀ",
+   "gur-mee",
+   {
+    "src": "generated",
+    "alt": [
+     "ਗਰਮੀਆਂ"
+    ],
+    "note": "ਗਰਮੀ also means \"heat\"",
+    "cat": "time"
+   }
+  ],
+  [
+   "spring",
+   "ਬਸੰਤ",
+   "ba-sunt",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "date (on the calendar)",
+   "ਤਾਰੀਖ਼",
+   "taa-reekh",
+   {
+    "src": "generated",
+    "cat": "time"
+   }
+  ],
+  [
+   "o'clock",
+   "ਵਜੇ",
+   "va-jay",
+   {
+    "src": "generated",
+    "note": "ਤਿੰਨ ਵਜੇ — three o'clock",
+    "cat": "time"
+   }
+  ],
+  [
+   "half past",
+   "ਸਾਢੇ",
+   "saa-dhay",
+   {
+    "src": "generated",
+    "note": "ਸਾਢੇ ਤਿੰਨ — half past three",
+    "cat": "time"
+   }
+  ],
+  [
+   "second",
+   "ਦੂਜਾ",
+   "doo-jaa",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "third",
+   "ਤੀਜਾ",
+   "tee-jaa",
+   {
+    "src": "generated",
+    "cat": "numbers"
+   }
+  ],
+  [
+   "roof",
+   "ਛੱਤ",
+   "chhutt",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "wall",
+   "ਕੰਧ",
+   "kundh",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "floor",
+   "ਫ਼ਰਸ਼",
+   "fa-rush",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "stairs",
+   "ਪੌੜੀਆਂ",
+   "pau-ree-aa(n)",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "lamp / light bulb",
+   "ਬੱਤੀ",
+   "but-tee",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "fan",
+   "ਪੱਖਾ",
+   "pukh-aa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "TV",
+   "ਟੀਵੀ",
+   "tee-vee",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "fridge",
+   "ਫ਼ਰਿੱਜ",
+   "fa-rij",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "bucket",
+   "ਬਾਲਟੀ",
+   "baal-tee",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "broom",
+   "ਝਾੜੂ",
+   "jhaa-roo",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "mirror",
+   "ਸ਼ੀਸ਼ਾ",
+   "shee-shaa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "comb",
+   "ਕੰਘੀ",
+   "kun-ghee",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "bowl",
+   "ਕਟੋਰੀ",
+   "ka-to-ree",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "cooking pot",
+   "ਪਤੀਲਾ",
+   "pa-tee-laa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "griddle (tava)",
+   "ਤਵਾ",
+   "ta-vaa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "bottle",
+   "ਬੋਤਲ",
+   "bo-tul",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "paper",
+   "ਕਾਗ਼ਜ਼",
+   "kaa-guz",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "picture / photo",
+   "ਤਸਵੀਰ",
+   "tus-veer",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "toy",
+   "ਖਿਡੌਣਾ",
+   "khi-dau-naa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "rubbish / trash",
+   "ਕੂੜਾ",
+   "koo-raa",
+   {
+    "src": "generated",
+    "cat": "items"
+   }
+  ],
+  [
+   "Gurbani (the Guru's words)",
+   "ਗੁਰਬਾਣੀ",
+   "gur-baa-nee / gurbani",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Hukamnama (the Guru's order for the day)",
+   "ਹੁਕਮਨਾਮਾ",
+   "hu-kum-naa-maa / hukamnama",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Simran (remembering God)",
+   "ਸਿਮਰਨ",
+   "sim-run / simran",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Naam Japna (repeating God's name)",
+   "ਨਾਮ ਜਪਣਾ",
+   "naam jup-naa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Nitnem (daily prayers)",
+   "ਨਿਤਨੇਮ",
+   "nit-naym / nitnem",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Japji Sahib (morning prayer)",
+   "ਜਪੁਜੀ ਸਾਹਿਬ",
+   "jup-jee saa-hib",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Rehras Sahib (evening prayer)",
+   "ਰਹਿਰਾਸ ਸਾਹਿਬ",
+   "reh-raas saa-hib",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Kirtan Sohila (bedtime prayer)",
+   "ਕੀਰਤਨ ਸੋਹਿਲਾ",
+   "keer-tun so-hi-laa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Mool Mantar (the first words of Gurbani)",
+   "ਮੂਲ ਮੰਤਰ",
+   "mool mun-tur",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Ik Onkar (there is One Creator)",
+   "ਇੱਕ ਓਅੰਕਾਰ",
+   "ikk o-un-kaar / ik onkar",
+   {
+    "src": "generated",
+    "alt": [
+     "ੴ"
+    ],
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Gutka (prayer book)",
+   "ਗੁਟਕਾ",
+   "gut-kaa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Granthi (reader and caretaker of the scripture)",
+   "ਗ੍ਰੰਥੀ",
+   "grun-thee",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Ragi (hymn singer)",
+   "ਰਾਗੀ",
+   "raa-gee",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Katha (talk explaining Gurbani)",
+   "ਕਥਾ",
+   "ka-thaa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Pangat (sitting in rows for langar)",
+   "ਪੰਗਤ",
+   "pun-gut",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Rumala (cloth covering the scripture)",
+   "ਰੁਮਾਲਾ",
+   "ru-maa-laa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Chaur Sahib (whisk waved over the scripture)",
+   "ਚੌਰ ਸਾਹਿਬ",
+   "chaur saa-hib",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Palki Sahib (canopy where the scripture sits)",
+   "ਪਾਲਕੀ ਸਾਹਿਬ",
+   "paal-kee saa-hib",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Gurmukhi (the Punjabi script)",
+   "ਗੁਰਮੁਖੀ",
+   "gur-mu-khee",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "harmonium (vaja)",
+   "ਵਾਜਾ",
+   "vaa-jaa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "shirt / tunic (kameez)",
+   "ਕਮੀਜ਼",
+   "ka-meez",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "kurta",
+   "ਕੁੜਤਾ",
+   "kur-taa",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "pants",
+   "ਪੈਂਟ",
+   "paint",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "salwar",
+   "ਸਲਵਾਰ",
+   "sul-vaar",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "suit (salwar kameez)",
+   "ਸੂਟ",
+   "soot",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "scarf (chunni)",
+   "ਚੁੰਨੀ",
+   "chun-nee",
+   {
+    "src": "generated",
+    "alt": [
+     "ਦੁਪੱਟਾ"
+    ],
+    "cat": "clothes"
+   }
+  ],
+  [
+   "turban",
+   "ਪੱਗ",
+   "pugg",
+   {
+    "src": "generated",
+    "alt": [
+     "ਦਸਤਾਰ"
+    ],
+    "cat": "clothes"
+   }
+  ],
+  [
+   "patka (small head wrap)",
+   "ਪਟਕਾ",
+   "put-kaa",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "sock",
+   "ਜੁਰਾਬ",
+   "ju-raab",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "coat / jacket",
+   "ਕੋਟ",
+   "kot",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "sweater",
+   "ਸਵੈਟਰ",
+   "sa-vai-tur",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "cap",
+   "ਟੋਪੀ",
+   "to-pee",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "slippers",
+   "ਚੱਪਲ",
+   "chup-pul",
+   {
+    "src": "generated",
+    "alt": [
+     "ਚੱਪਲਾਂ"
+    ],
+    "cat": "clothes"
+   }
+  ],
+  [
+   "pocket",
+   "ਜੇਬ",
+   "jayb",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "ring",
+   "ਮੁੰਦਰੀ",
+   "mun-dree",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "glasses (spectacles)",
+   "ਐਨਕ",
+   "ai-nuk",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "bangle",
+   "ਚੂੜੀ",
+   "choo-ree",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "necklace",
+   "ਹਾਰ",
+   "haar",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "button",
+   "ਬਟਨ",
+   "ba-tun",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "tie a turban",
+   "ਪੱਗ ਬੰਨ੍ਹਣਾ",
+   "pugg bunn-naa",
+   {
+    "src": "generated",
+    "cat": "clothes"
+   }
+  ],
+  [
+   "sick",
+   "ਬਿਮਾਰ",
+   "bi-maar",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "pain / ache",
+   "ਦਰਦ",
+   "dur-ud",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "fever",
+   "ਬੁਖ਼ਾਰ",
+   "bu-khaar",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "cough",
+   "ਖੰਘ",
+   "khungh",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "cold (illness)",
+   "ਜ਼ੁਕਾਮ",
+   "zu-kaam",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "medicine",
+   "ਦਵਾਈ",
+   "da-vaa-ee",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "headache",
+   "ਸਿਰ ਦਰਦ",
+   "sir dur-ud",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "injury",
+   "ਸੱਟ",
+   "sutt",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "healthy",
+   "ਤੰਦਰੁਸਤ",
+   "tun-dur-ust",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "rest",
+   "ਆਰਾਮ",
+   "aa-raam",
+   {
+    "src": "generated",
+    "cat": "health"
+   }
+  ],
+  [
+   "neck",
+   "ਗਰਦਨ",
+   "gur-dun",
+   {
+    "src": "generated",
+    "alt": [
+     "ਧੌਣ"
+    ],
+    "cat": "body"
+   }
+  ],
+  [
+   "shoulder",
+   "ਮੋਢਾ",
+   "mo-dhaa",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "knee",
+   "ਗੋਡਾ",
+   "go-daa",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "tongue",
+   "ਜੀਭ",
+   "jeebh",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "lips",
+   "ਬੁੱਲ੍ਹ",
+   "bull",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "beard",
+   "ਦਾੜ੍ਹੀ",
+   "daa-ree",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "skin",
+   "ਚਮੜੀ",
+   "chum-ree",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "chest",
+   "ਛਾਤੀ",
+   "chhaa-tee",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "nail",
+   "ਨਹੁੰ",
+   "na-hu(n)",
+   {
+    "src": "generated",
+    "cat": "body"
+   }
+  ],
+  [
+   "throat",
+   "ਗਲਾ",
+   "ga-laa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਗਲ਼ਾ"
+    ],
+    "cat": "body"
+   }
+  ],
+  [
+   "price",
+   "ਕੀਮਤ",
+   "kee-mut",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੁੱਲ"
+    ],
+    "cat": "shopping"
+   }
+  ],
+  [
+   "cheap",
+   "ਸਸਤਾ",
+   "sus-taa",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "expensive",
+   "ਮਹਿੰਗਾ",
+   "meh-ngaa",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "rupee",
+   "ਰੁਪਈਆ",
+   "ru-pa-ee-aa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਰੁਪਏ"
+    ],
+    "cat": "shopping"
+   }
+  ],
+  [
+   "dollar",
+   "ਡਾਲਰ",
+   "daa-lur",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "customer",
+   "ਗਾਹਕ",
+   "gaa-huk",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "shopkeeper",
+   "ਦੁਕਾਨਦਾਰ",
+   "du-kaan-daar",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "bill",
+   "ਬਿੱਲ",
+   "bill",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "kilo",
+   "ਕਿੱਲੋ",
+   "kil-lo",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "more",
+   "ਹੋਰ",
+   "hor",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "less",
+   "ਘੱਟ",
+   "ghutt",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "enough",
+   "ਕਾਫ਼ੀ",
+   "kaa-fee",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "full",
+   "ਭਰਿਆ",
+   "bhar-yaa",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "empty",
+   "ਖ਼ਾਲੀ",
+   "khaa-lee",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "heavy",
+   "ਭਾਰਾ",
+   "bhaa-raa",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "light (not heavy)",
+   "ਹਲਕਾ",
+   "hul-kaa",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "many",
+   "ਕਈ",
+   "ka-ee",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "every",
+   "ਹਰ",
+   "hur",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "only",
+   "ਸਿਰਫ਼",
+   "sir-uf",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "gift",
+   "ਤੋਹਫ਼ਾ",
+   "toh-faa",
+   {
+    "src": "generated",
+    "cat": "shopping"
+   }
+  ],
+  [
+   "airplane",
+   "ਜਹਾਜ਼",
+   "ja-haaz",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "train",
+   "ਰੇਲ ਗੱਡੀ",
+   "rayl gud-dee",
+   {
+    "src": "generated",
+    "alt": [
+     "ਰੇਲ"
+    ],
+    "cat": "travel"
+   }
+  ],
+  [
+   "bicycle",
+   "ਸਾਈਕਲ",
+   "saa-ee-kul",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "ticket",
+   "ਟਿਕਟ",
+   "ti-kut",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "airport",
+   "ਹਵਾਈ ਅੱਡਾ",
+   "ha-vaa-ee ud-daa",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "bus stop",
+   "ਬੱਸ ਅੱਡਾ",
+   "bus ud-daa",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "journey",
+   "ਸਫ਼ਰ",
+   "sa-fur",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "country",
+   "ਦੇਸ਼",
+   "daysh",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੁਲਕ"
+    ],
+    "cat": "travel"
+   }
+  ],
+  [
+   "India",
+   "ਭਾਰਤ",
+   "bhaa-rut",
+   {
+    "src": "generated",
+    "alt": [
+     "ਇੰਡੀਆ"
+    ],
+    "cat": "travel"
+   }
+  ],
+  [
+   "Punjab",
+   "ਪੰਜਾਬ",
+   "pun-jaab",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "America",
+   "ਅਮਰੀਕਾ",
+   "um-ree-kaa",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "straight ahead",
+   "ਸਿੱਧਾ",
+   "siddh-aa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਸਿੱਧੇ"
+    ],
+    "cat": "directions"
+   }
+  ],
+  [
+   "turn (to turn)",
+   "ਮੁੜਨਾ",
+   "mur-naa",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "in front",
+   "ਅੱਗੇ",
+   "ug-gay",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "opposite / facing",
+   "ਸਾਹਮਣੇ",
+   "saah-mun-ay",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "between",
+   "ਵਿਚਕਾਰ",
+   "vich-kaar",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "next to",
+   "ਕੋਲ",
+   "kol",
+   {
+    "src": "generated",
+    "cat": "directions"
+   }
+  ],
+  [
+   "lane / street",
+   "ਗਲੀ",
+   "ga-lee",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "bridge",
+   "ਪੁਲ",
+   "pul",
+   {
+    "src": "generated",
+    "cat": "travel"
+   }
+  ],
+  [
+   "address",
+   "ਪਤਾ",
+   "pa-taa",
+   {
+    "src": "generated",
+    "note": "ਪਤਾ also means \"known\" (ਮੈਨੂੰ ਪਤਾ — I know)",
+    "cat": "travel"
+   }
+  ],
+  [
+   "tall / long",
+   "ਲੰਮਾ",
+   "lum-maa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "thin",
+   "ਪਤਲਾ",
+   "put-laa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "fat",
+   "ਮੋਟਾ",
+   "mo-taa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "strong",
+   "ਤਕੜਾ",
+   "tuk-raa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "weak",
+   "ਕਮਜ਼ੋਰ",
+   "kum-zor",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "rich",
+   "ਅਮੀਰ",
+   "a-meer",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "poor",
+   "ਗ਼ਰੀਬ",
+   "ga-reeb",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "true / truth",
+   "ਸੱਚ",
+   "such",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "lie (untruth)",
+   "ਝੂਠ",
+   "jhooth",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "wet",
+   "ਗਿੱਲਾ",
+   "gil-laa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "dry",
+   "ਸੁੱਕਾ",
+   "suk-kaa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "soft",
+   "ਨਰਮ",
+   "na-rum",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "hard",
+   "ਸਖ਼ਤ",
+   "sa-khut",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "sour",
+   "ਖੱਟਾ",
+   "khut-taa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "spicy",
+   "ਤਿੱਖਾ",
+   "tikh-aa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "bitter",
+   "ਕੌੜਾ",
+   "kau-raa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "tasty",
+   "ਸੁਆਦ",
+   "su-aad",
+   {
+    "src": "generated",
+    "alt": [
+     "ਸਵਾਦ",
+     "ਸੁਆਦੀ"
+    ],
+    "cat": "describe"
+   }
+  ],
+  [
+   "great / very good",
+   "ਵਧੀਆ",
+   "va-dhee-aa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "different",
+   "ਵੱਖਰਾ",
+   "vukh-raa",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "important",
+   "ਜ਼ਰੂਰੀ",
+   "za-roo-ree",
+   {
+    "src": "generated",
+    "cat": "describe"
+   }
+  ],
+  [
+   "get ready",
+   "ਤਿਆਰ ਹੋਣਾ",
+   "ti-aar ho-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "clean (to clean)",
+   "ਸਾਫ਼ ਕਰਨਾ",
+   "saaf kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "cut",
+   "ਕੱਟਣਾ",
+   "kutt-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "fill",
+   "ਭਰਨਾ",
+   "bhar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "throw",
+   "ਸੁੱਟਣਾ",
+   "sutt-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "break",
+   "ਤੋੜਨਾ",
+   "tor-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "fix / repair",
+   "ਠੀਕ ਕਰਨਾ",
+   "theek kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "pull",
+   "ਖਿੱਚਣਾ",
+   "khich-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "push",
+   "ਧੱਕਣਾ",
+   "dhukk-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "hug",
+   "ਜੱਫੀ ਪਾਉਣਾ",
+   "juf-fee paa-u-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "fight",
+   "ਲੜਨਾ",
+   "lur-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "win",
+   "ਜਿੱਤਣਾ",
+   "jitt-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "lose (a game)",
+   "ਹਾਰਨਾ",
+   "haar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "swim",
+   "ਤੈਰਨਾ",
+   "tair-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "fly (to fly)",
+   "ਉੱਡਣਾ",
+   "udd-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "phone (to call)",
+   "ਫ਼ੋਨ ਕਰਨਾ",
+   "phone kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "like (to like)",
+   "ਪਸੰਦ ਕਰਨਾ",
+   "pa-sund kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "believe / obey",
+   "ਮੰਨਣਾ",
+   "munn-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "grow",
+   "ਵਧਣਾ",
+   "vudh-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "pray",
+   "ਅਰਦਾਸ ਕਰਨਾ",
+   "ar-daas kar-naa",
+   {
+    "src": "generated",
+    "cat": "actions"
+   }
+  ],
+  [
+   "Khalsa (initiated Sikhs)",
+   "ਖ਼ਾਲਸਾ",
+   "khaal-saa / khalsa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Amrit (initiation nectar)",
+   "ਅੰਮ੍ਰਿਤ",
+   "um-rit / amrit",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Panj Pyare (the Five Beloved Ones)",
+   "ਪੰਜ ਪਿਆਰੇ",
+   "punj pi-aa-ray / panj pyare",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Kesh (uncut hair)",
+   "ਕੇਸ",
+   "kays",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Kangha (small wooden comb)",
+   "ਕੰਘਾ",
+   "kun-ghaa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Kara (steel bracelet)",
+   "ਕੜਾ",
+   "ka-raa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Kirpan (small sword)",
+   "ਕਿਰਪਾਨ",
+   "kir-paan",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Kachera (cotton undershorts)",
+   "ਕਛਹਿਰਾ",
+   "ka-chheh-raa",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Singh (lion, Sikh men's name)",
+   "ਸਿੰਘ",
+   "singh",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Kaur (princess, Sikh women's name)",
+   "ਕੌਰ",
+   "kaur",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Guru Nanak Dev Ji (the first Guru)",
+   "ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ",
+   "gu-roo naa-nuk dayv jee",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Guru Gobind Singh Ji (the tenth Guru)",
+   "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਜੀ",
+   "gu-roo go-bind singh jee",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Gurpurab (a Guru's anniversary)",
+   "ਗੁਰਪੁਰਬ",
+   "gur-pu-rub / gurpurab",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Vaisakhi (harvest festival and Khalsa birthday)",
+   "ਵਿਸਾਖੀ",
+   "vi-saa-khee / vaisakhi",
+   {
+    "src": "generated",
+    "alt": [
+     "ਵੈਸਾਖੀ"
+    ],
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Bandi Chhor Divas (Day of Liberation)",
+   "ਬੰਦੀ ਛੋੜ ਦਿਵਸ",
+   "bun-dee chhor di-vus",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Akhand Path (non-stop reading of the scripture)",
+   "ਅਖੰਡ ਪਾਠ",
+   "a-khund paath",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Bhog (completion of a reading)",
+   "ਭੋਗ",
+   "bhog",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Anand Karaj (Sikh wedding)",
+   "ਅਨੰਦ ਕਾਰਜ",
+   "a-nund kaa-ruj",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Harmandir Sahib (the Golden Temple)",
+   "ਹਰਿਮੰਦਰ ਸਾਹਿਬ",
+   "ha-ri-mun-dur saa-hib",
+   {
+    "src": "generated",
+    "note": "also called Darbar Sahib",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "Chardi Kala (rising spirits, always hopeful)",
+   "ਚੜ੍ਹਦੀ ਕਲਾ",
+   "char-dee ka-laa / chardi kala",
+   {
+    "src": "generated",
+    "cat": "gurdwara"
+   }
+  ],
+  [
+   "student",
+   "ਵਿਦਿਆਰਥੀ",
+   "vi-di-aar-thee",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "class (grade)",
+   "ਜਮਾਤ",
+   "ja-maat",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "lesson",
+   "ਸਬਕ",
+   "sa-buk",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "homework",
+   "ਘਰ ਦਾ ਕੰਮ",
+   "ghur daa kumm",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "question",
+   "ਸਵਾਲ",
+   "sa-vaal",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "notebook",
+   "ਕਾਪੀ",
+   "kaa-pee",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "language",
+   "ਬੋਲੀ",
+   "bo-lee",
+   {
+    "src": "generated",
+    "alt": [
+     "ਭਾਸ਼ਾ"
+    ],
+    "cat": "school"
+   }
+  ],
+  [
+   "Punjabi (language)",
+   "ਪੰਜਾਬੀ",
+   "pun-jaa-bee",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "English (language)",
+   "ਅੰਗਰੇਜ਼ੀ",
+   "un-gray-zee",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "office",
+   "ਦਫ਼ਤਰ",
+   "duf-tur",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "job",
+   "ਨੌਕਰੀ",
+   "nau-ka-ree",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "owner / boss",
+   "ਮਾਲਕ",
+   "maa-luk",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "test (exam)",
+   "ਇਮਤਿਹਾਨ",
+   "im-ti-haan",
+   {
+    "src": "generated",
+    "alt": [
+     "ਪੇਪਰ"
+    ],
+    "cat": "school"
+   }
+  ],
+  [
+   "mistake",
+   "ਗ਼ਲਤੀ",
+   "gul-tee",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "correct",
+   "ਸਹੀ",
+   "sa-hee",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "wrong",
+   "ਗ਼ਲਤ",
+   "ga-lut",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "easy",
+   "ਸੌਖਾ",
+   "sau-khaa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਆਸਾਨ"
+    ],
+    "cat": "school"
+   }
+  ],
+  [
+   "difficult",
+   "ਔਖਾ",
+   "au-khaa",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "letter (of the alphabet)",
+   "ਅੱਖਰ",
+   "ukh-ur",
+   {
+    "src": "generated",
+    "cat": "school"
+   }
+  ],
+  [
+   "meaning",
+   "ਮਤਲਬ",
+   "mut-lub",
+   {
+    "src": "generated",
+    "alt": [
+     "ਅਰਥ"
+    ],
+    "cat": "school"
+   }
+  ],
+  [
+   "weather",
+   "ਮੌਸਮ",
+   "mau-sum",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "cloud",
+   "ਬੱਦਲ",
+   "bud-dul",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "storm",
+   "ਤੂਫ਼ਾਨ",
+   "too-faan",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "sunshine",
+   "ਧੁੱਪ",
+   "dhupp",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "shade",
+   "ਛਾਂ",
+   "chhaa(n)",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "mountain",
+   "ਪਹਾੜ",
+   "pa-haar",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "sea",
+   "ਸਮੁੰਦਰ",
+   "sa-mun-dur",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "field (farm)",
+   "ਖੇਤ",
+   "khayt",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "stone",
+   "ਪੱਥਰ",
+   "putt-hur",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "sand",
+   "ਰੇਤ",
+   "rayt",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "buffalo",
+   "ਮੱਝ",
+   "mujh",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "sheep",
+   "ਭੇਡ",
+   "bhayd",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "donkey",
+   "ਗਧਾ",
+   "ga-dhaa",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "camel",
+   "ਊਠ",
+   "ooth",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "peacock",
+   "ਮੋਰ",
+   "mor",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "crow",
+   "ਕਾਂ",
+   "kaa(n)",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "butterfly",
+   "ਤਿਤਲੀ",
+   "tit-lee",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "ant",
+   "ਕੀੜੀ",
+   "kee-ree",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "rabbit",
+   "ਖਰਗੋਸ਼",
+   "khur-gosh",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "frog",
+   "ਡੱਡੂ",
+   "dud-doo",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "lunch",
+   "ਦੁਪਹਿਰ ਦਾ ਖਾਣਾ",
+   "du-peh-hur daa khaa-naa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "dinner",
+   "ਰਾਤ ਦਾ ਖਾਣਾ",
+   "raat daa khaa-naa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "coffee",
+   "ਕੌਫ਼ੀ",
+   "kau-fee",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "biscuit / cookie",
+   "ਬਿਸਕੁਟ",
+   "bis-kut",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "cake",
+   "ਕੇਕ",
+   "kayk",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "ice cream",
+   "ਆਈਸ ਕਰੀਮ",
+   "aa-ees ka-reem",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "cauliflower",
+   "ਗੋਭੀ",
+   "go-bhee",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "peas",
+   "ਮਟਰ",
+   "ma-tur",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "okra",
+   "ਭਿੰਡੀ",
+   "bhin-dee",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "eggplant",
+   "ਬੈਂਗਣ",
+   "bain-gun",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "radish",
+   "ਮੂਲੀ",
+   "moo-lee",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "corn",
+   "ਛੱਲੀ",
+   "chhul-lee",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੱਕੀ"
+    ],
+    "cat": "food"
+   }
+  ],
+  [
+   "pomegranate",
+   "ਅਨਾਰ",
+   "a-naar",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "guava",
+   "ਅਮਰੂਦ",
+   "um-rood",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "jalebi",
+   "ਜਲੇਬੀ",
+   "ja-lay-bee",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "laddoo",
+   "ਲੱਡੂ",
+   "lud-doo",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "stuffed flatbread (paratha)",
+   "ਪਰੌਂਠਾ",
+   "pa-rau(n)-thaa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਪਰਾਂਠਾ"
+    ],
+    "cat": "food"
+   }
+  ],
+  [
+   "pickle",
+   "ਅਚਾਰ",
+   "a-chaar",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "spices (masala)",
+   "ਮਸਾਲਾ",
+   "ma-saa-laa",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "almond",
+   "ਬਦਾਮ",
+   "ba-daam",
+   {
+    "src": "generated",
+    "cat": "food"
+   }
+  ],
+  [
+   "bank",
+   "ਬੈਂਕ",
+   "baink",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "post office",
+   "ਡਾਕਖ਼ਾਨਾ",
+   "daak-khaa-naa",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "police station",
+   "ਥਾਣਾ",
+   "thaa-naa",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "roadside restaurant (dhaba)",
+   "ਢਾਬਾ",
+   "dhaa-baa",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "hotel",
+   "ਹੋਟਲ",
+   "ho-tul",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "well (for water)",
+   "ਖੂਹ",
+   "khooh",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "courtyard",
+   "ਵਿਹੜਾ",
+   "veh-raa",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "library",
+   "ਲਾਇਬ੍ਰੇਰੀ",
+   "laa-ib-ray-ree",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "college",
+   "ਕਾਲਜ",
+   "kaa-luj",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "temple (Hindu)",
+   "ਮੰਦਰ",
+   "mun-dur",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "mosque",
+   "ਮਸਜਿਦ",
+   "mus-jid",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "church",
+   "ਗਿਰਜਾ",
+   "gir-jaa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਚਰਚ"
+    ],
+    "cat": "places"
+   }
+  ],
+  [
+   "playground",
+   "ਮੈਦਾਨ",
+   "mai-daan",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "world",
+   "ਦੁਨੀਆ",
+   "du-nee-aa",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "abroad",
+   "ਵਿਦੇਸ਼",
+   "vi-daysh",
+   {
+    "src": "generated",
+    "alt": [
+     "ਬਾਹਰਲਾ ਮੁਲਕ"
+    ],
+    "cat": "places"
+   }
+  ],
+  [
+   "Amritsar",
+   "ਅੰਮ੍ਰਿਤਸਰ",
+   "um-rit-sur",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "Delhi",
+   "ਦਿੱਲੀ",
+   "dil-lee",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "Canada",
+   "ਕੈਨੇਡਾ",
+   "kai-nay-daa",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "England",
+   "ਇੰਗਲੈਂਡ",
+   "ing-laind",
+   {
+    "src": "generated",
+    "alt": [
+     "ਵਲੈਤ"
+    ],
+    "cat": "places"
+   }
+  ],
+  [
+   "factory",
+   "ਫ਼ੈਕਟਰੀ",
+   "faik-tur-ee",
+   {
+    "src": "generated",
+    "cat": "places"
+   }
+  ],
+  [
+   "color",
+   "ਰੰਗ",
+   "rung",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "saffron (kesri)",
+   "ਕੇਸਰੀ",
+   "kay-sa-ree",
+   {
+    "src": "generated",
+    "note": "the color of the Nishan Sahib",
+    "cat": "colors"
+   }
+  ],
+  [
+   "golden",
+   "ਸੁਨਹਿਰੀ",
+   "su-neh-ree",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "gold",
+   "ਸੋਨਾ",
+   "so-naa",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "silver",
+   "ਚਾਂਦੀ",
+   "chaan-dee",
+   {
+    "src": "generated",
+    "cat": "colors"
+   }
+  ],
+  [
+   "dark (color)",
+   "ਗੂੜ੍ਹਾ",
+   "goo-raa",
+   {
+    "src": "generated",
+    "note": "ਗੂੜ੍ਹਾ ਨੀਲਾ — dark blue",
+    "cat": "colors"
+   }
+  ],
+  [
+   "light (color)",
+   "ਫਿੱਕਾ",
+   "phik-kaa",
+   {
+    "src": "generated",
+    "note": "ਫਿੱਕਾ ਨੀਲਾ — light blue",
+    "cat": "colors"
+   }
+  ],
+  [
+   "mosquito",
+   "ਮੱਛਰ",
+   "much-chhur",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "fly (insect)",
+   "ਮੱਖੀ",
+   "mukh-ee",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "bee",
+   "ਮਧੂ ਮੱਖੀ",
+   "ma-dhoo mukh-ee",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "deer",
+   "ਹਿਰਨ",
+   "hi-run",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "owl",
+   "ਉੱਲੂ",
+   "ul-loo",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "duck",
+   "ਬੱਤਖ",
+   "butt-ukh",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "sparrow",
+   "ਚਿੜੀ",
+   "chi-ree",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "fox",
+   "ਲੂੰਬੜੀ",
+   "loom-ba-ree",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "plant",
+   "ਬੂਟਾ",
+   "boo-taa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਪੌਦਾ"
+    ],
+    "cat": "nature"
+   }
+  ],
+  [
+   "wood",
+   "ਲੱਕੜ",
+   "luk-kur",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "smoke",
+   "ਧੂੰਆਂ",
+   "dhoo(n)-aa(n)",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "tail",
+   "ਪੂਛ",
+   "pooch",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ],
+  [
+   "feather",
+   "ਖੰਭ",
+   "khumbh",
+   {
+    "src": "generated",
+    "cat": "nature"
+   }
+  ]
+ ],
+ "phrases": [
+  [
+   "hello (any time of day)",
+   "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ",
+   "sat sri akal",
+   {
+    "src": "teacher",
+    "group": "From morning to evening"
+   }
+  ],
+  [
+   "father",
+   "ਪਾਪਾ / ਪਿਤਾ ਜੀ / ਬਾਪੂ ਜੀ",
+   "papa / pita ji / bapu ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "mother",
+   "ਮੰਮੀ / ਮਾਤਾ ਜੀ",
+   "mummy / mata ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "brother",
+   "ਵੀਰ / ਭਰਾ / ਭਾਜੀ",
+   "veer / bhraa / bhaaji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "sister",
+   "ਭੈਣ / ਦੀਦੀ",
+   "bhain / didi",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "grandfather (dad's father)",
+   "ਦਾਦਾ ਜੀ",
+   "daadaa ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "grandmother (dad's mother)",
+   "ਦਾਦੀ ਜੀ",
+   "daadee ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "grandfather (mom's father)",
+   "ਨਾਨਾ ਜੀ",
+   "naanaa ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "grandmother (mom's mother)",
+   "ਨਾਨੀ ਜੀ",
+   "naanee ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "uncle (dad's younger brother)",
+   "ਚਾਚਾ ਜੀ",
+   "chaachaa ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "uncle (dad's older brother)",
+   "ਤਾਇਆ ਜੀ",
+   "taaya ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "uncle (mom's sister's husband)",
+   "ਫੁੱਫੜ ਜੀ",
+   "fufad ji",
+   {
+    "src": "teacher",
+    "group": "Family",
+    "check": "ਫੁੱਫੜ (fuffar) is usually DAD's sister's husband. Mom's sister's husband is usually ਮਾਸੜ ਜੀ (maasar ji)."
+   }
+  ],
+  [
+   "uncle (mom's brother)",
+   "ਮਾਮਾ ਜੀ",
+   "mama ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "aunt (dad's younger brother's wife)",
+   "ਚਾਚੀ ਜੀ",
+   "chachee ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "aunt (dad's older brother's wife)",
+   "ਤਾਈ ਜੀ",
+   "tayee ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "aunt (mom's sister)",
+   "ਮਾਸੀ ਜੀ",
+   "maasi ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "aunt (mom's brother's wife)",
+   "ਮਾਮੀ ਜੀ",
+   "maamee ji",
+   {
+    "src": "teacher",
+    "group": "Family"
+   }
+  ],
+  [
+   "bye (at the end of the day)",
+   "ਅਲਵਿਦਾ",
+   "alvidaa",
+   {
+    "src": "teacher",
+    "group": "Goodbyes"
+   }
+  ],
+  [
+   "ok, now permit me to go (night)",
+   "ਚੰਗਾ, ਹੁਣ ਆਗਿਆ ਦਿਓ",
+   "changaa hun aagia dio",
+   {
+    "src": "teacher",
+    "group": "Goodbyes"
+   }
+  ],
+  [
+   "good night",
+   "ਸ਼ੁਭ ਰਾਤਰੀ",
+   "shubh raatri",
+   {
+    "src": "teacher",
+    "group": "Goodbyes"
+   }
+  ],
+  [
+   "good bye",
+   "ਅੱਛਾ, ਵਿਦਾ",
+   "accha vidaa",
+   {
+    "src": "teacher",
+    "group": "Goodbyes"
+   }
+  ],
+  [
+   "see you again",
+   "ਚੰਗਾ, ਫਿਰ ਮਿਲਾਂਗੇ",
+   "changaa phir milange",
+   {
+    "src": "teacher",
+    "group": "Goodbyes"
+   }
+  ],
+  [
+   "yes",
+   "ਹਾਂ / ਹਾਂ ਜੀ",
+   "haan / haan ji",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "no",
+   "ਨਹੀਂ / ਨਹੀਂ ਜੀ",
+   "naee / naee ji",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "water",
+   "ਪਾਣੀ",
+   "paani",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "food",
+   "ਖਾਣਾ",
+   "khaana",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "home",
+   "ਘਰ",
+   "ghar",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "friend",
+   "ਦੋਸਤ",
+   "dost",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "I don't know",
+   "ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ",
+   "mainu naee pataa",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "I know",
+   "ਮੈਨੂੰ ਪਤਾ",
+   "mainu pataa",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "I'm sorry (forgive me)",
+   "ਮੈਨੂੰ ਮਾਫ਼ ਕਰਨਾ",
+   "mainu maaf karnaa",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "okay",
+   "ਠੀਕ ਆ / ਅੱਛਾ",
+   "theek aa / accha",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "please",
+   "ਕਿਰਪਾ ਕਰਕੇ",
+   "kirpa karke",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "excuse me",
+   "ਮਾਫ਼ ਕਰਨਾ",
+   "maaf karnaa",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "thank you",
+   "ਧੰਨਵਾਦ ਜੀ",
+   "dhanvaad ji",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "of course",
+   "ਬਿਲਕੁਲ / ਜ਼ਰੂਰ",
+   "bilkul / ja-roor",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "just a moment",
+   "ਇੱਕ ਮਿੰਟ",
+   "ik minute",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "let's take a look",
+   "ਚਲੋ ਦੇਖੀਏ",
+   "chalo dekhiye",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "let's go",
+   "ਚਲੋ",
+   "chalo",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "let's see",
+   "ਦੇਖੀਏ",
+   "dekhiye",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "nonsense",
+   "ਬਕਵਾਸ",
+   "buck-vaas",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "right here",
+   "ਇੱਥੇ ਆ / ਇੱਥੇ ਹੈ",
+   "i-thay-aa / i-thay-hai",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "right there",
+   "ਉੱਥੇ ਆ / ਉੱਥੇ ਹੈ",
+   "oo-thay-aa / ut-hay hai",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "see you later",
+   "ਬਾਅਦ 'ਚ",
+   "baad-cho(n)",
+   {
+    "src": "teacher",
+    "group": "Basics",
+    "check": "Gurmukhi spelling guessed from \"baad-chon\"."
+   }
+  ],
+  [
+   "see you tonight",
+   "ਸ਼ਾਮ ਨੂੰ ਮਿਲਦੇ ਆਂ",
+   "shaam nu milday aa",
+   {
+    "src": "teacher",
+    "group": "Basics"
+   }
+  ],
+  [
+   "come",
+   "ਆਓ",
+   "aao",
+   {
+    "src": "teacher",
+    "group": "Useful verbs"
+   }
+  ],
+  [
+   "go",
+   "ਜਾਓ",
+   "jao",
+   {
+    "src": "teacher",
+    "group": "Useful verbs"
+   }
+  ],
+  [
+   "sit",
+   "ਬੈਠੋ",
+   "baitho",
+   {
+    "src": "teacher",
+    "group": "Useful verbs"
+   }
+  ],
+  [
+   "eat",
+   "ਖਾਓ",
+   "kha-o",
+   {
+    "src": "teacher",
+    "group": "Useful verbs"
+   }
+  ],
+  [
+   "drink",
+   "ਪੀਓ",
+   "pee-o",
+   {
+    "src": "teacher",
+    "group": "Useful verbs"
+   }
+  ],
+  [
+   "listen",
+   "ਸੁਣੋ",
+   "suno",
+   {
+    "src": "teacher",
+    "group": "Useful verbs"
+   }
+  ],
+  [
+   "come here",
+   "ਇੱਥੇ ਆਓ",
+   "i-thay aao",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "sit here",
+   "ਇੱਥੇ ਬੈਠੋ",
+   "i-thay baitho",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "eat food",
+   "ਰੋਟੀ ਖਾਓ",
+   "roti kha-o",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "drink water",
+   "ਪਾਣੀ ਪੀਓ",
+   "pani pee-o",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "I am hungry",
+   "ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਆ",
+   "mai-nuu bhukh laggee aa",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "I am thirsty",
+   "ਮੈਨੂੰ ਪਿਆਸ ਲੱਗੀ ਆ",
+   "mainu pyaas laggee aa",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "eat your food",
+   "ਖਾਣਾ ਖਾਓ",
+   "khaana khao",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "go to sleep",
+   "ਸੌਂ ਜਾਓ",
+   "sau(n) jaao",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "wash your hands",
+   "ਹੱਥ ਧੋਵੋ",
+   "hath dhovo",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "brush your teeth",
+   "ਦੰਦ ਸਾਫ਼ ਕਰੋ",
+   "dand saaf karo",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "have you eaten?",
+   "ਤੁਸੀਂ ਖਾ ਲਿਆ?",
+   "tusi(n) kha leya",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "I want a cup of tea",
+   "ਮੈਂ ਚਾਹ ਪੀਣੀ ਆ",
+   "mai(n) chaa peenee aa",
+   {
+    "src": "teacher",
+    "group": "Sentences"
+   }
+  ],
+  [
+   "good luck",
+   "ਖ਼ੁਸ਼ਕਿਸਮਤੀ",
+   "khush-kis-ma-tee",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "what do you do?",
+   "ਤੁਸੀਂ ਕੀ ਕਰਦੇ ਹੋ?",
+   "tusi(n) kee karde ho",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "check it out / look at this (close)",
+   "ਆਹ ਦੇਖੋ",
+   "aah daiko / aah day",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "look at that (far away)",
+   "ਔਹ ਦੇਖੋ",
+   "oh dekho",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "can you repeat that? (informal)",
+   "ਦੁਬਾਰਾ ਕਹੋ",
+   "dobaraa kaho",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "what did you say?",
+   "ਕੀ ਕਿਹਾ?",
+   "kee kehaa",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "say it again",
+   "ਫਿਰ ਕਹੋ",
+   "phair kaho",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "have a good trip",
+   "ਤੁਹਾਡਾ ਟ੍ਰਿਪ ਚੰਗਾ ਬੀਤੇ",
+   "tuhada trip changaa bitay",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "how was your trip?",
+   "ਤੁਹਾਡਾ ਟ੍ਰਿਪ ਕਿਵੇਂ ਸੀ?",
+   "tuhada trip kive(n) see",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "that sounds good",
+   "ਉਹ ਠੀਕ ਆ",
+   "oh thik aa",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "I should get going",
+   "ਮੈਨੂੰ ਜਾਣਾ ਚਾਹੀਦਾ",
+   "mainu janaa chahida",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "I am heading home",
+   "ਮੈਂ ਘਰ ਚੱਲਿਆ / ਚੱਲੀ",
+   "mai(n) ghar chalaa / chalee",
+   {
+    "src": "teacher",
+    "group": "Everyday",
+    "note": "chalaa (boy/man) · chalee (girl/woman)"
+   }
+  ],
+  [
+   "I don't understand",
+   "ਮੈਨੂੰ ਸਮਝ ਨਹੀਂ ਲੱਗੀ",
+   "mainu samaj nahi(n) lagee",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "it's no trouble",
+   "ਕੋਈ ਦਿੱਕਤ ਨਹੀਂ",
+   "koi dikkat nahi(n)",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "any time",
+   "ਕਦੇ ਵੀ",
+   "kaday vee",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "be careful",
+   "ਧਿਆਨ ਨਾਲ",
+   "dhyaan naal",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "do not worry",
+   "ਚਿੰਤਾ ਨਾ ਕਰੋ",
+   "chin-taa naa ka-ro",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "excellent",
+   "ਸ਼ਾਨਦਾਰ / ਬਹੁਤ ਵਧੀਆ",
+   "shaan-daar / bahut vadia",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "now and then (time to time)",
+   "ਕਦੇ ਕਦੇ",
+   "ka-de ka-de",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "good idea",
+   "ਚੰਗਾ ਵਿਚਾਰ",
+   "chan-gaa vi-chaar",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "help",
+   "ਮਦਦ ਕਰੋ",
+   "madad ka-ro",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "he / she is right",
+   "ਉਹ ਸਹੀ ਹੈ",
+   "oh sa-hee hai",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "how is work?",
+   "ਕੰਮ ਕਿਵੇਂ ਹੈ?",
+   "kum kive(n) hai",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "hurry",
+   "ਛੇਤੀ",
+   "chay-tee",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "I am sad",
+   "ਮੈਂ ਉਦਾਸ ਹਾਂ",
+   "mai(n) oo-daas haa(n)",
+   {
+    "src": "teacher",
+    "group": "Feelings"
+   }
+  ],
+  [
+   "I am happy",
+   "ਮੈਂ ਖ਼ੁਸ਼ ਹਾਂ",
+   "mai(n) khush haa(n)",
+   {
+    "src": "teacher",
+    "group": "Feelings"
+   }
+  ],
+  [
+   "I am angry",
+   "ਮੈਂ ਗੁੱਸੇ ਹਾਂ",
+   "mai(n) gusse haa(n)",
+   {
+    "src": "teacher",
+    "group": "Feelings"
+   }
+  ],
+  [
+   "I am married",
+   "ਮੈਂ ਵਿਆਹਿਆ / ਵਿਆਹੀ ਹਾਂ",
+   "mai(n) vay-aa-ey-aa / vay-aa-ee haa(n)",
+   {
+    "src": "teacher",
+    "group": "Feelings",
+    "note": "vay-aa-ey-aa (man) · vay-aa-ee (woman)"
+   }
+  ],
+  [
+   "I am not sure",
+   "ਮੈਨੂੰ ਪੱਕਾ ਨਹੀਂ ਪਤਾ",
+   "mainu puk-kaa nahi(n) pataa",
+   {
+    "src": "teacher",
+    "group": "Feelings",
+    "check": "MAINU PUK-KAA alone means \"I'm sure\"; \"nahi(n) pataa\" was added to make it \"not sure\"."
+   }
+  ],
+  [
+   "I am sorry (I feel bad)",
+   "ਮੈਂ ਸ਼ਰਮਿੰਦਾ ਹਾਂ",
+   "mai(n) shar-min-daa",
+   {
+    "src": "teacher",
+    "group": "Feelings"
+   }
+  ],
+  [
+   "is that enough?",
+   "ਕੀ ਇਹ ਕਾਫ਼ੀ ਹੈ?",
+   "kee eh kaa-fee hai",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "just a little",
+   "ਥੋੜ੍ਹਾ ਜਿਹਾ",
+   "tho-raa jay-haa",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "let me check",
+   "ਮੈਨੂੰ ਦੇਖਣ ਦਿਓ",
+   "mainu day-khun dio",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "never mind",
+   "ਕੋਈ ਗੱਲ ਨਹੀਂ",
+   "koi gall nahi(n)",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "next time",
+   "ਅਗਲੀ ਵਾਰੀ",
+   "ug-lee vaa-ree",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "nothing else",
+   "ਹੋਰ ਕੁਝ ਨਹੀਂ",
+   "hor kujh nahi(n)",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "not yet",
+   "ਹਾਲੇ ਨਹੀਂ",
+   "hull-ay nahi(n)",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "really?",
+   "ਸੱਚੀ?",
+   "such-ee",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "stop",
+   "ਰੁਕੋ",
+   "rook-o",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "tell me",
+   "ਮੈਨੂੰ ਦੱਸੋ",
+   "mainu dus-so",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "you are nice",
+   "ਤੁਸੀਂ ਚੰਗੇ ਹੋ",
+   "tusee chan-gay ho",
+   {
+    "src": "teacher",
+    "group": "Everyday"
+   }
+  ],
+  [
+   "this is my home",
+   "ਇਹ ਮੇਰਾ ਘਰ ਆ",
+   "eh mera ghar aa",
+   {
+    "src": "teacher",
+    "group": "Around the house"
+   }
+  ],
+  [
+   "open the door",
+   "ਦਰਵਾਜ਼ਾ ਖੋਲ੍ਹ ਦਿਓ",
+   "darvaja khol dao",
+   {
+    "src": "teacher",
+    "group": "Around the house"
+   }
+  ],
+  [
+   "close the window",
+   "ਤਾਕੀ ਬੰਦ ਕਰੋ",
+   "taakee band karo",
+   {
+    "src": "teacher",
+    "group": "Around the house"
+   }
+  ],
+  [
+   "turn off the light",
+   "ਬੱਤੀ ਬੰਦ ਕਰੋ",
+   "battee band karo",
+   {
+    "src": "teacher",
+    "group": "Around the house"
+   }
+  ],
+  [
+   "mother is in the kitchen",
+   "ਮਾਂ ਰਸੋਈ ਵਿੱਚ ਆ",
+   "maa(n) rasoi vich aa",
+   {
+    "src": "teacher",
+    "group": "Around the house"
+   }
+  ],
+  [
+   "father is at home",
+   "ਪਿਓ ਘਰ ਆ",
+   "peyo ghar aa",
+   {
+    "src": "teacher",
+    "group": "Around the house"
+   }
+  ],
+  [
+   "my parents are well",
+   "ਮੇਰੇ ਮਾਂ-ਬਾਪ ਠੀਕ ਆ",
+   "mere maa-baap theek aa",
+   {
+    "src": "teacher",
+    "group": "Around the house",
+    "note": "ਠੀਕ means fine / well"
+   }
+  ],
+  [
+   "the child is playing",
+   "ਬੱਚਾ ਖੇਡਦਾ ਆ",
+   "bacchaa khed daa aa",
+   {
+    "src": "teacher",
+    "group": "Around the house"
+   }
+  ],
+  [
+   "my brother is at work",
+   "ਭਾਜੀ ਕੰਮ ਤੇ ਆ",
+   "bhaa ji kam te aa",
+   {
+    "src": "teacher",
+    "group": "Around the house"
+   }
+  ],
+  [
+   "my sister is in the room",
+   "ਭੈਣ ਜੀ ਕਮਰੇ ਵਿੱਚ ਆ",
+   "bhen ji kamre vich aa",
+   {
+    "src": "teacher",
+    "group": "Around the house"
+   }
+  ],
+  [
+   "how are you?",
+   "ਤੁਸੀਂ ਕਿਵੇਂ ਹੋ?",
+   "tu-see(n) ki-vay(n) ho",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "I am fine",
+   "ਮੈਂ ਠੀਕ ਹਾਂ",
+   "mai(n) theek haa(n)",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "how's it going?",
+   "ਕੀ ਹਾਲ ਹੈ?",
+   "kee haal hai",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "great, and you?",
+   "ਵਧੀਆ, ਤੁਸੀਂ ਸੁਣਾਓ",
+   "va-dhee-aa, tu-see(n) su-naa-o",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "what is your name?",
+   "ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ?",
+   "tu-haa-daa naam kee hai",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "nice to meet you",
+   "ਤੁਹਾਨੂੰ ਮਿਲ ਕੇ ਖ਼ੁਸ਼ੀ ਹੋਈ",
+   "tu-haa-noo mil kay khu-shee ho-ee",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "where are you from?",
+   "ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ?",
+   "tu-see(n) kit-tho(n) ho",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "I am from Punjab",
+   "ਮੈਂ ਪੰਜਾਬ ਤੋਂ ਹਾਂ",
+   "mai(n) pun-jaab to(n) haa(n)",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "I live in America",
+   "ਮੈਂ ਅਮਰੀਕਾ ਵਿੱਚ ਰਹਿੰਦਾ ਹਾਂ",
+   "mai(n) um-ree-kaa vich reh-ndaa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਅਮਰੀਕਾ ਵਿੱਚ ਰਹਿੰਦੀ ਹਾਂ"
+    ],
+    "note": "ਰਹਿੰਦਾ (man) · ਰਹਿੰਦੀ (woman)",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "how old are you?",
+   "ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ?",
+   "tu-haa-dee u-mur kin-nee hai",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "I am learning Punjabi",
+   "ਮੈਂ ਪੰਜਾਬੀ ਸਿੱਖ ਰਿਹਾ ਹਾਂ",
+   "mai(n) pun-jaa-bee sikh ri-haa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਪੰਜਾਬੀ ਸਿੱਖ ਰਹੀ ਹਾਂ"
+    ],
+    "note": "ਰਿਹਾ (man/boy) · ਰਹੀ (woman/girl)",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "please speak slowly",
+   "ਹੌਲੀ ਬੋਲੋ ਜੀ",
+   "hau-lee bo-lo jee",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "what does this mean?",
+   "ਇਸ ਦਾ ਕੀ ਮਤਲਬ ਹੈ?",
+   "is daa kee mut-lub hai",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "how do you say this in Punjabi?",
+   "ਇਸ ਨੂੰ ਪੰਜਾਬੀ ਵਿੱਚ ਕੀ ਕਹਿੰਦੇ ਹਨ?",
+   "is noo pun-jaa-bee vich kee keh-nday hun",
+   {
+    "src": "generated",
+    "group": "Meeting people"
+   }
+  ],
+  [
+   "Sikh greeting: the Khalsa belongs to Waheguru, victory belongs to Waheguru",
+   "ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ, ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ",
+   "vaa-hi-gu-roo jee kaa khaal-saa, vaa-hi-gu-roo jee kee fa-teh / waheguru ji ka khalsa waheguru ji ki fateh",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "jaikara: whoever says it is blessed — God is the eternal truth",
+   "ਜੋ ਬੋਲੇ ਸੋ ਨਿਹਾਲ, ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ",
+   "jo bo-lay so ni-haal, sut sree a-kaal / jo bole so nihal sat sri akal",
+   {
+    "src": "generated",
+    "note": "one person calls \"Jo Bole So Nihal\", everyone answers \"Sat Sri Akal\"",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "let's go to the Gurdwara",
+   "ਚਲੋ ਗੁਰਦੁਆਰੇ ਚੱਲੀਏ",
+   "cha-lo gur-du-aa-ray chul-lee-ay",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "please cover your head",
+   "ਕਿਰਪਾ ਕਰਕੇ ਸਿਰ ਢੱਕ ਲਓ",
+   "kir-paa kar-kay sir dhukk la-o",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "where do I put my shoes?",
+   "ਜੁੱਤੀਆਂ ਕਿੱਥੇ ਰੱਖਾਂ?",
+   "jut-tee-aa(n) kit-thay rukh-aa(n)",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "wash your hands and feet",
+   "ਹੱਥ ਪੈਰ ਧੋ ਲਓ",
+   "hutth pair dho la-o",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "bow before the Guru",
+   "ਮੱਥਾ ਟੇਕੋ",
+   "mut-thaa tay-ko",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "sit quietly",
+   "ਚੁੱਪ ਕਰਕੇ ਬੈਠੋ",
+   "chupp kar-kay bai-tho",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "listen to the kirtan",
+   "ਕੀਰਤਨ ਸੁਣੋ",
+   "keer-tun su-no",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "stand up for Ardas",
+   "ਅਰਦਾਸ ਲਈ ਖੜ੍ਹੇ ਹੋ ਜਾਓ",
+   "ar-daas la-ee kha-ray ho jaa-o",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "take parshad with both hands",
+   "ਦੋਵੇਂ ਹੱਥਾਂ ਨਾਲ ਪ੍ਰਸ਼ਾਦ ਲਓ",
+   "do-vay(n) hutth-aa(n) naal pr-shaad la-o",
+   {
+    "src": "generated",
+    "note": "cup your hands together, right hand on top",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "let's eat langar",
+   "ਚਲੋ ਲੰਗਰ ਛਕੀਏ",
+   "cha-lo lung-ar chha-kee-ay",
+   {
+    "src": "generated",
+    "note": "ਛਕਣਾ is the respectful word for eating langar",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "sit in the row (pangat)",
+   "ਪੰਗਤ ਵਿੱਚ ਬੈਠੋ",
+   "pun-gut vich bai-tho",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "please give me a roti (in langar)",
+   "ਪ੍ਰਸ਼ਾਦਾ ਦਿਓ ਜੀ",
+   "pr-shaa-daa di-o jee",
+   {
+    "src": "generated",
+    "note": "in langar a roti is called ਪ੍ਰਸ਼ਾਦਾ",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "enough, thank you",
+   "ਬੱਸ ਜੀ, ਧੰਨਵਾਦ",
+   "bus jee, dhun-vaad",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "please come in",
+   "ਆਓ ਜੀ, ਅੰਦਰ ਆਓ",
+   "aa-o jee, un-dur aa-o",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "will you have tea?",
+   "ਚਾਹ ਪੀਓਗੇ?",
+   "chaa pee-o-gay",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "is everyone well at home?",
+   "ਘਰ ਸਾਰੇ ਠੀਕ ਨੇ?",
+   "ghur saa-ray theek nay",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "all is well, by God's grace",
+   "ਰੱਬ ਦੀ ਮਿਹਰ ਹੈ",
+   "rubb dee meh-hur hai",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "it's been a long time!",
+   "ਬੜੇ ਦਿਨਾਂ ਬਾਅਦ ਮਿਲੇ ਹੋ",
+   "ba-ray di-naa(n) baad mi-lay ho",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "we missed you",
+   "ਅਸੀਂ ਤੁਹਾਨੂੰ ਯਾਦ ਕੀਤਾ",
+   "a-see(n) tu-haa-noo yaad kee-taa",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "respectful greeting to elders (I touch your feet)",
+   "ਪੈਰੀਂ ਪੈਨਾ ਜੀ",
+   "pai-ree(n) pai-naa jee",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "live long! (an elder's blessing)",
+   "ਜੀਉਂਦਾ ਰਹਿ",
+   "jee-un-daa reh",
+   {
+    "src": "generated",
+    "alt": [
+     "ਜੀਉਂਦੀ ਰਹਿ"
+    ],
+    "note": "ਜੀਉਂਦਾ to a boy · ਜੀਉਂਦੀ to a girl",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "stay happy",
+   "ਖ਼ੁਸ਼ ਰਹੋ",
+   "khush ra-ho",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "the food is very tasty",
+   "ਖਾਣਾ ਬਹੁਤ ਸੁਆਦ ਹੈ",
+   "khaa-naa ba-hut su-aad hai",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "I'm full",
+   "ਮੇਰਾ ਢਿੱਡ ਭਰ ਗਿਆ",
+   "may-raa dhidd bhur gyaa",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "have some more",
+   "ਹੋਰ ਲਓ",
+   "hor la-o",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "stay a little longer",
+   "ਥੋੜ੍ਹਾ ਹੋਰ ਬੈਠੋ",
+   "tho-raa hor bai-tho",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "we have to go now",
+   "ਹੁਣ ਸਾਨੂੰ ਜਾਣਾ ਪੈਣਾ",
+   "hun saa-noo jaa-naa pai-naa",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "come again",
+   "ਫਿਰ ਆਇਓ",
+   "phir aa-i-o",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "say Sat Sri Akal to everyone",
+   "ਸਾਰਿਆਂ ਨੂੰ ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਕਹਿਣਾ",
+   "saa-ri-aa(n) noo sut sree a-kaal keh-naa",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "call when you get there",
+   "ਪਹੁੰਚ ਕੇ ਫ਼ੋਨ ਕਰਿਓ",
+   "pa-hunch kay phone ka-ri-o",
+   {
+    "src": "generated",
+    "group": "Visiting family"
+   }
+  ],
+  [
+   "food is ready",
+   "ਖਾਣਾ ਤਿਆਰ ਹੈ",
+   "khaa-naa ti-aar hai",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "come, let's eat",
+   "ਆਓ, ਖਾਣਾ ਖਾਈਏ",
+   "aa-o, khaa-naa khaa-ee-ay",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "what's for dinner?",
+   "ਰਾਤ ਨੂੰ ਕੀ ਬਣਿਆ?",
+   "raat noo kee bun-yaa",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "pass the salt",
+   "ਲੂਣ ਫੜਾਓ",
+   "loon pha-raa-o",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "it's too spicy",
+   "ਬਹੁਤ ਤਿੱਖਾ ਹੈ",
+   "ba-hut tikh-aa hai",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "one more roti, please",
+   "ਇੱਕ ਹੋਰ ਰੋਟੀ ਦਿਓ",
+   "ikk hor ro-tee di-o",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "I don't eat meat",
+   "ਮੈਂ ਮੀਟ ਨਹੀਂ ਖਾਂਦਾ",
+   "mai(n) meet na-hee(n) khaan-daa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਮੀਟ ਨਹੀਂ ਖਾਂਦੀ"
+    ],
+    "note": "ਖਾਂਦਾ (man) · ਖਾਂਦੀ (woman)",
+    "group": "Meals"
+   }
+  ],
+  [
+   "make some tea",
+   "ਚਾਹ ਬਣਾਓ",
+   "chaa ba-naa-o",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "I'm not hungry",
+   "ਮੈਨੂੰ ਭੁੱਖ ਨਹੀਂ",
+   "mai-noo bhukh na-hee(n)",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "wash the dishes",
+   "ਭਾਂਡੇ ਧੋਵੋ",
+   "bhaan-day dho-vo",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "help me in the kitchen",
+   "ਰਸੋਈ ਵਿੱਚ ਮੇਰੀ ਮਦਦ ਕਰੋ",
+   "ra-so-ee vich may-ree ma-dud ka-ro",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "is the food hot?",
+   "ਕੀ ਖਾਣਾ ਗਰਮ ਹੈ?",
+   "kee khaa-naa ga-rum hai",
+   {
+    "src": "generated",
+    "group": "Meals"
+   }
+  ],
+  [
+   "good morning",
+   "ਸ਼ੁਭ ਸਵੇਰ",
+   "shubh sa-vayr",
+   {
+    "src": "generated",
+    "note": "most Punjabis just say ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ at any time",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "wake up",
+   "ਉੱਠੋ",
+   "ut-tho",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "get ready",
+   "ਤਿਆਰ ਹੋ ਜਾਓ",
+   "ti-aar ho jaa-o",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "take a bath",
+   "ਨਹਾ ਲਓ",
+   "na-haa la-o",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "put on your shoes",
+   "ਜੁੱਤੀ ਪਾ ਲਓ",
+   "jut-tee paa la-o",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "we're getting late",
+   "ਸਾਨੂੰ ਦੇਰ ਹੋ ਰਹੀ ਹੈ",
+   "saa-noo dayr ho ra-hee hai",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "where are my keys?",
+   "ਮੇਰੀਆਂ ਚਾਬੀਆਂ ਕਿੱਥੇ ਨੇ?",
+   "may-ree-aa(n) chaa-bee-aa(n) kit-thay nay",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "clean your room",
+   "ਆਪਣਾ ਕਮਰਾ ਸਾਫ਼ ਕਰੋ",
+   "aap-naa kum-raa saaf ka-ro",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "turn on the light",
+   "ਬੱਤੀ ਜਗਾਓ",
+   "but-tee ja-gaa-o",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "turn on the fan",
+   "ਪੱਖਾ ਚਲਾਓ",
+   "pukh-aa cha-laa-o",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "turn off the TV",
+   "ਟੀਵੀ ਬੰਦ ਕਰੋ",
+   "tee-vee bund ka-ro",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "do your homework",
+   "ਘਰ ਦਾ ਕੰਮ ਕਰੋ",
+   "ghur daa kumm ka-ro",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "it's time to sleep",
+   "ਸੌਣ ਦਾ ਸਮਾਂ ਹੋ ਗਿਆ",
+   "saun daa sa-maa(n) ho gyaa",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "don't do that",
+   "ਇਹ ਨਾ ਕਰੋ",
+   "eh naa ka-ro",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "be quiet",
+   "ਚੁੱਪ ਕਰੋ",
+   "chupp ka-ro",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "well done!",
+   "ਸ਼ਾਬਾਸ਼!",
+   "shaa-baash",
+   {
+    "src": "generated",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "I love you",
+   "ਮੈਂ ਤੁਹਾਨੂੰ ਪਿਆਰ ਕਰਦਾ ਹਾਂ",
+   "mai(n) tu-haa-noo pyaar kur-daa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਤੁਹਾਨੂੰ ਪਿਆਰ ਕਰਦੀ ਹਾਂ"
+    ],
+    "note": "ਕਰਦਾ (man) · ਕਰਦੀ (woman)",
+    "group": "Daily routine"
+   }
+  ],
+  [
+   "what are you doing?",
+   "ਤੁਸੀਂ ਕੀ ਕਰ ਰਹੇ ਹੋ?",
+   "tu-see(n) kee kur ra-hay ho",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "nothing much",
+   "ਕੁਝ ਖ਼ਾਸ ਨਹੀਂ",
+   "kujh khaas na-hee(n)",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "tell me more / what else is new?",
+   "ਹੋਰ ਸੁਣਾਓ",
+   "hor su-naa-o",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "where are you going?",
+   "ਤੁਸੀਂ ਕਿੱਥੇ ਜਾ ਰਹੇ ਹੋ?",
+   "tu-see(n) kit-thay jaa ra-hay ho",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "where do you live?",
+   "ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੇ ਹੋ?",
+   "tu-see(n) kit-thay reh-nday ho",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "do you speak English?",
+   "ਕੀ ਤੁਸੀਂ ਅੰਗਰੇਜ਼ੀ ਬੋਲਦੇ ਹੋ?",
+   "kee tu-see(n) un-gray-zee bol-day ho",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "how many children do you have?",
+   "ਤੁਹਾਡੇ ਕਿੰਨੇ ਬੱਚੇ ਨੇ?",
+   "tu-haa-day kin-nay buch-chay nay",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "this is my son",
+   "ਇਹ ਮੇਰਾ ਪੁੱਤ ਹੈ",
+   "eh may-raa putt hai",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "this is my wife",
+   "ਇਹ ਮੇਰੀ ਪਤਨੀ ਹੈ",
+   "eh may-ree put-nee hai",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "this is my husband",
+   "ਇਹ ਮੇਰੇ ਪਤੀ ਹਨ",
+   "eh may-ray pa-tee hun",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "I agree",
+   "ਮੈਂ ਸਹਿਮਤ ਹਾਂ",
+   "mai(n) seh-mut haa(n)",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "you're right",
+   "ਤੁਸੀਂ ਸਹੀ ਹੋ",
+   "tu-see(n) sa-hee ho",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "I think so",
+   "ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ",
+   "mai-noo lug-daa hai",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "that's true",
+   "ਇਹ ਸੱਚ ਹੈ",
+   "eh such hai",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "what do you think?",
+   "ਤੁਹਾਡਾ ਕੀ ਖ਼ਿਆਲ ਹੈ?",
+   "tu-haa-daa kee khi-aal hai",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "why not?",
+   "ਕਿਉਂ ਨਹੀਂ?",
+   "kyo(n) na-hee(n)",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "what is this?",
+   "ਇਹ ਕੀ ਹੈ?",
+   "eh kee hai",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "I like it",
+   "ਮੈਨੂੰ ਇਹ ਪਸੰਦ ਹੈ",
+   "mai-noo eh pa-sund hai",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "I don't like it",
+   "ਮੈਨੂੰ ਇਹ ਪਸੰਦ ਨਹੀਂ",
+   "mai-noo eh pa-sund na-hee(n)",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "wait a little",
+   "ਥੋੜ੍ਹਾ ਰੁਕੋ",
+   "tho-raa ru-ko",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "I'm coming",
+   "ਮੈਂ ਆ ਰਿਹਾ ਹਾਂ",
+   "mai(n) aa ri-haa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਆ ਰਹੀ ਹਾਂ"
+    ],
+    "note": "ਰਿਹਾ (man) · ਰਹੀ (woman)",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "I am not feeling well",
+   "ਮੇਰੀ ਤਬੀਅਤ ਠੀਕ ਨਹੀਂ",
+   "may-ree ta-bee-ut theek na-hee(n)",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "I have a headache",
+   "ਮੇਰਾ ਸਿਰ ਦੁਖਦਾ ਹੈ",
+   "may-raa sir dukh-daa hai",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "my stomach hurts",
+   "ਮੇਰਾ ਢਿੱਡ ਦੁਖਦਾ ਹੈ",
+   "may-raa dhidd dukh-daa hai",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "I have a fever",
+   "ਮੈਨੂੰ ਬੁਖ਼ਾਰ ਹੈ",
+   "mai-noo bu-khaar hai",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "take your medicine",
+   "ਦਵਾਈ ਲੈ ਲਓ",
+   "da-vaa-ee lai la-o",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "get well soon",
+   "ਛੇਤੀ ਠੀਕ ਹੋ ਜਾਓ",
+   "chhay-tee theek ho jaa-o",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "are you okay?",
+   "ਤੁਸੀਂ ਠੀਕ ਹੋ?",
+   "tu-see(n) theek ho",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "what happened?",
+   "ਕੀ ਹੋਇਆ?",
+   "kee ho-yaa",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "I'm tired",
+   "ਮੈਂ ਥੱਕ ਗਿਆ ਹਾਂ",
+   "mai(n) thukk gyaa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਥੱਕ ਗਈ ਹਾਂ"
+    ],
+    "note": "ਗਿਆ (man) · ਗਈ (woman)",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "I'm scared",
+   "ਮੈਨੂੰ ਡਰ ਲੱਗਦਾ ਹੈ",
+   "mai-noo dur lug-daa hai",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "I feel cold",
+   "ਮੈਨੂੰ ਠੰਢ ਲੱਗਦੀ ਹੈ",
+   "mai-noo thund lug-dee hai",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "I feel hot",
+   "ਮੈਨੂੰ ਗਰਮੀ ਲੱਗਦੀ ਹੈ",
+   "mai-noo gur-mee lug-dee hai",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "I'm so happy to see you",
+   "ਤੁਹਾਨੂੰ ਦੇਖ ਕੇ ਬਹੁਤ ਖ਼ੁਸ਼ੀ ਹੋਈ",
+   "tu-haa-noo daykh kay ba-hut khu-shee ho-ee",
+   {
+    "src": "generated",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "don't cry",
+   "ਨਾ ਰੋ",
+   "naa ro",
+   {
+    "src": "generated",
+    "note": "to a child; to an adult say ਨਾ ਰੋਵੋ",
+    "group": "Feeling & health"
+   }
+  ],
+  [
+   "how much is this?",
+   "ਇਹ ਕਿੰਨੇ ਦਾ ਹੈ?",
+   "eh kin-nay daa hai",
+   {
+    "src": "generated",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "it's too expensive",
+   "ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ",
+   "ba-hut meh-ngaa hai",
+   {
+    "src": "generated",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "make it a little cheaper",
+   "ਥੋੜ੍ਹਾ ਘੱਟ ਕਰੋ",
+   "tho-raa ghutt ka-ro",
+   {
+    "src": "generated",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "I want this one",
+   "ਮੈਨੂੰ ਇਹ ਚਾਹੀਦਾ ਹੈ",
+   "mai-noo eh chaa-hee-daa hai",
+   {
+    "src": "generated",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "I don't want it",
+   "ਮੈਨੂੰ ਨਹੀਂ ਚਾਹੀਦਾ",
+   "mai-noo na-hee(n) chaa-hee-daa",
+   {
+    "src": "generated",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "do you have milk?",
+   "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਦੁੱਧ ਹੈ?",
+   "kee tu-haa-day kol dudh hai",
+   {
+    "src": "generated",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "give me two kilos",
+   "ਦੋ ਕਿੱਲੋ ਦਿਓ",
+   "do kil-lo di-o",
+   {
+    "src": "generated",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "just looking",
+   "ਬੱਸ ਦੇਖ ਰਿਹਾ ਹਾਂ",
+   "bus daykh ri-haa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਬੱਸ ਦੇਖ ਰਹੀ ਹਾਂ"
+    ],
+    "note": "ਰਿਹਾ (man) · ਰਹੀ (woman)",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "when does the shop close?",
+   "ਦੁਕਾਨ ਕਦੋਂ ਬੰਦ ਹੁੰਦੀ ਹੈ?",
+   "du-kaan ka-do(n) bund hun-dee hai",
+   {
+    "src": "generated",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "I'll pay",
+   "ਮੈਂ ਪੈਸੇ ਦੇਵਾਂਗਾ",
+   "mai(n) pai-say day-vaan-gaa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਪੈਸੇ ਦੇਵਾਂਗੀ"
+    ],
+    "note": "ਦੇਵਾਂਗਾ (man) · ਦੇਵਾਂਗੀ (woman)",
+    "group": "Shopping"
+   }
+  ],
+  [
+   "where is the bathroom?",
+   "ਬਾਥਰੂਮ ਕਿੱਥੇ ਹੈ?",
+   "baath-room kit-thay hai",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "how far is it?",
+   "ਕਿੰਨੀ ਦੂਰ ਹੈ?",
+   "kin-nee door hai",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "go straight",
+   "ਸਿੱਧੇ ਜਾਓ",
+   "siddh-ay jaa-o",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "turn left",
+   "ਖੱਬੇ ਮੁੜੋ",
+   "khub-bay mu-ro",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "turn right",
+   "ਸੱਜੇ ਮੁੜੋ",
+   "suj-jay mu-ro",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "it's close by",
+   "ਨੇੜੇ ਹੀ ਹੈ",
+   "nay-ray hee hai",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "I'm lost",
+   "ਮੈਂ ਰਾਹ ਭੁੱਲ ਗਿਆ ਹਾਂ",
+   "mai(n) raah bhull gyaa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਰਾਹ ਭੁੱਲ ਗਈ ਹਾਂ"
+    ],
+    "note": "ਗਿਆ (man) · ਗਈ (woman)",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "stop here",
+   "ਇੱਥੇ ਰੋਕੋ",
+   "it-thay ro-ko",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "which way?",
+   "ਕਿਹੜੇ ਪਾਸੇ?",
+   "keh-ray paa-say",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "let's go home",
+   "ਚਲੋ ਘਰ ਚੱਲੀਏ",
+   "cha-lo ghur chul-lee-ay",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "when will we get there?",
+   "ਅਸੀਂ ਕਦੋਂ ਪਹੁੰਚਾਂਗੇ?",
+   "a-see(n) ka-do(n) pa-hun-chaan-gay",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "we are going to India",
+   "ਅਸੀਂ ਭਾਰਤ ਜਾ ਰਹੇ ਹਾਂ",
+   "a-see(n) bhaa-rut jaa ra-hay haa(n)",
+   {
+    "src": "generated",
+    "group": "Directions & travel"
+   }
+  ],
+  [
+   "can I do seva?",
+   "ਕੀ ਮੈਂ ਸੇਵਾ ਕਰ ਸਕਦਾ ਹਾਂ?",
+   "kee mai(n) say-vaa kur suk-daa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਕੀ ਮੈਂ ਸੇਵਾ ਕਰ ਸਕਦੀ ਹਾਂ?"
+    ],
+    "note": "ਸਕਦਾ (man) · ਸਕਦੀ (woman)",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "a little more, please",
+   "ਥੋੜ੍ਹਾ ਹੋਰ ਦਿਓ ਜੀ",
+   "tho-raa hor di-o jee",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "what is today's Hukamnama?",
+   "ਅੱਜ ਦਾ ਹੁਕਮਨਾਮਾ ਕੀ ਹੈ?",
+   "ujj daa hu-kum-naa-maa kee hai",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "say Waheguru",
+   "ਵਾਹਿਗੁਰੂ ਬੋਲੋ",
+   "vaa-hi-gu-roo bo-lo",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "the Gurdwara is very beautiful",
+   "ਗੁਰਦੁਆਰਾ ਬਹੁਤ ਸੁੰਦਰ ਹੈ",
+   "gur-du-aa-raa ba-hut sun-dur hai",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "we go to the Gurdwara on Sunday",
+   "ਅਸੀਂ ਐਤਵਾਰ ਨੂੰ ਗੁਰਦੁਆਰੇ ਜਾਂਦੇ ਹਾਂ",
+   "a-see(n) ait-vaar noo gur-du-aa-ray jaan-day haa(n)",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "may all be blessed (Sarbat da Bhala)",
+   "ਸਰਬੱਤ ਦਾ ਭਲਾ",
+   "sar-butt daa bha-laa",
+   {
+    "src": "generated",
+    "note": "the last line of Ardas",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "by Waheguru's grace",
+   "ਵਾਹਿਗੁਰੂ ਦੀ ਕਿਰਪਾ ਨਾਲ",
+   "vaa-hi-gu-roo dee kir-paa naal",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "thank God",
+   "ਸ਼ੁਕਰ ਹੈ",
+   "shu-kur hai",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "forgive any mistakes",
+   "ਭੁੱਲ ਚੁੱਕ ਮਾਫ਼",
+   "bhull chukk maaf",
+   {
+    "src": "generated",
+    "note": "said humbly at the end of Ardas or a talk",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "do Path every day",
+   "ਰੋਜ਼ ਪਾਠ ਕਰੋ",
+   "roz paath ka-ro",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "stay in high spirits",
+   "ਚੜ੍ਹਦੀ ਕਲਾ ਵਿੱਚ ਰਹੋ",
+   "char-dee ka-laa vich ra-ho",
+   {
+    "src": "generated",
+    "group": "At the Gurdwara"
+   }
+  ],
+  [
+   "how was school?",
+   "ਸਕੂਲ ਕਿਵੇਂ ਸੀ?",
+   "skool ki-vay(n) see",
+   {
+    "src": "generated",
+    "group": "School"
+   }
+  ],
+  [
+   "what did you learn today?",
+   "ਅੱਜ ਤੁਸੀਂ ਕੀ ਸਿੱਖਿਆ?",
+   "ujj tu-see(n) kee sikh-yaa",
+   {
+    "src": "generated",
+    "group": "School"
+   }
+  ],
+  [
+   "pay attention",
+   "ਧਿਆਨ ਦਿਓ",
+   "dhyaan di-o",
+   {
+    "src": "generated",
+    "group": "School"
+   }
+  ],
+  [
+   "read this",
+   "ਇਹ ਪੜ੍ਹੋ",
+   "eh pa-ro",
+   {
+    "src": "generated",
+    "group": "School"
+   }
+  ],
+  [
+   "write your name",
+   "ਆਪਣਾ ਨਾਮ ਲਿਖੋ",
+   "aap-naa naam li-kho",
+   {
+    "src": "generated",
+    "group": "School"
+   }
+  ],
+  [
+   "I have a question",
+   "ਮੇਰਾ ਇੱਕ ਸਵਾਲ ਹੈ",
+   "may-raa ikk sa-vaal hai",
+   {
+    "src": "generated",
+    "group": "School"
+   }
+  ],
+  [
+   "try again",
+   "ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+   "phir ko-shish ka-ro",
+   {
+    "src": "generated",
+    "group": "School"
+   }
+  ],
+  [
+   "I work in an office",
+   "ਮੈਂ ਦਫ਼ਤਰ ਵਿੱਚ ਕੰਮ ਕਰਦਾ ਹਾਂ",
+   "mai(n) duf-tur vich kumm kur-daa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਦਫ਼ਤਰ ਵਿੱਚ ਕੰਮ ਕਰਦੀ ਹਾਂ"
+    ],
+    "note": "ਕਰਦਾ (man) · ਕਰਦੀ (woman)",
+    "group": "School"
+   }
+  ],
+  [
+   "hello? (on the phone)",
+   "ਹੈਲੋ ਜੀ?",
+   "hai-lo jee",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "who is speaking?",
+   "ਕੌਣ ਬੋਲ ਰਿਹਾ ਹੈ?",
+   "kaun bol ri-haa hai",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "can you hear me?",
+   "ਤੁਹਾਨੂੰ ਆਵਾਜ਼ ਆ ਰਹੀ ਹੈ?",
+   "tu-haa-noo aa-vaaz aa ra-hee hai",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "I'll call you later",
+   "ਮੈਂ ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਾਂਗਾ",
+   "mai(n) baad vich phone ka-raan-gaa",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਾਂਗੀ"
+    ],
+    "note": "ਕਰਾਂਗਾ (man) · ਕਰਾਂਗੀ (woman)",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "what time is it?",
+   "ਕਿੰਨੇ ਵਜੇ ਨੇ?",
+   "kin-nay va-jay nay",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "it's three o'clock",
+   "ਤਿੰਨ ਵਜੇ ਨੇ",
+   "tinn va-jay nay",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "what day is it today?",
+   "ਅੱਜ ਕਿਹੜਾ ਦਿਨ ਹੈ?",
+   "ujj keh-raa din hai",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "it's very hot today",
+   "ਅੱਜ ਬਹੁਤ ਗਰਮੀ ਹੈ",
+   "ujj ba-hut gur-mee hai",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "it's raining",
+   "ਮੀਂਹ ਪੈ ਰਿਹਾ ਹੈ",
+   "mee(n)h pai ri-haa hai",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "congratulations",
+   "ਵਧਾਈਆਂ",
+   "va-dhaa-ee-aa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੁਬਾਰਕਾਂ"
+    ],
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "happy birthday",
+   "ਜਨਮ ਦਿਨ ਮੁਬਾਰਕ",
+   "ja-num din mu-baa-ruk",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "happy Vaisakhi",
+   "ਵਿਸਾਖੀ ਦੀਆਂ ਵਧਾਈਆਂ",
+   "vi-saa-khee dee-aa(n) va-dhaa-ee-aa(n)",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "happy Gurpurab",
+   "ਗੁਰਪੁਰਬ ਦੀਆਂ ਵਧਾਈਆਂ",
+   "gur-pu-rub dee-aa(n) va-dhaa-ee-aa(n)",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "happy Bandi Chhor Divas",
+   "ਬੰਦੀ ਛੋੜ ਦਿਵਸ ਦੀਆਂ ਵਧਾਈਆਂ",
+   "bun-dee chhor di-vus dee-aa(n) va-dhaa-ee-aa(n)",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "happy new year",
+   "ਨਵਾਂ ਸਾਲ ਮੁਬਾਰਕ",
+   "na-vaa(n) saal mu-baa-ruk",
+   {
+    "src": "generated",
+    "group": "Phone & celebrations"
+   }
+  ],
+  [
+   "see you tomorrow",
+   "ਕੱਲ੍ਹ ਮਿਲਾਂਗੇ",
+   "kull mi-laan-gay",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "take care of yourself",
+   "ਆਪਣਾ ਖ਼ਿਆਲ ਰੱਖਣਾ",
+   "aap-naa khi-aal rukh-naa",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "sorry, I'm late",
+   "ਮਾਫ਼ ਕਰਨਾ, ਮੈਨੂੰ ਦੇਰ ਹੋ ਗਈ",
+   "maaf kar-naa, mai-noo dayr ho ga-ee",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "I'm busy right now",
+   "ਮੈਂ ਹੁਣ ਰੁੱਝਿਆ ਹੋਇਆ ਹਾਂ",
+   "mai(n) hun rujh-yaa ho-yaa haa(n)",
+   {
+    "src": "generated",
+    "alt": [
+     "ਮੈਂ ਹੁਣ ਰੁੱਝੀ ਹੋਈ ਹਾਂ"
+    ],
+    "note": "ਰੁੱਝਿਆ ਹੋਇਆ (man) · ਰੁੱਝੀ ਹੋਈ (woman)",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "come, sit with me",
+   "ਆਓ, ਮੇਰੇ ਕੋਲ ਬੈਠੋ",
+   "aa-o, may-ray kol bai-tho",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "it doesn't matter",
+   "ਕੋਈ ਫ਼ਰਕ ਨਹੀਂ ਪੈਂਦਾ",
+   "ko-ee fa-ruk na-hee(n) pain-daa",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ],
+  [
+   "let's play",
+   "ਚਲੋ ਖੇਡੀਏ",
+   "cha-lo khay-dee-ay",
+   {
+    "src": "generated",
+    "group": "Chatting"
+   }
+  ]
+ ]
+}
