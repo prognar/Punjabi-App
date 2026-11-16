@@ -3,7 +3,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import vm from 'node:vm';
-import { describe, expect, it } from 'vitest';
+import { beforeAll, describe, expect, it } from 'vitest';
 import * as S from '../src/matcher';
 import { model as M } from './fixtures';
 
@@ -11,12 +11,15 @@ const dir = process.env.PROTOTYPE_DIR;
 const run = dir && existsSync(join(dir, 'js/speech.js')) ? describe : describe.skip;
 
 run('parity with the prototype', () => {
-  const window: any = { console: { warn() {} } };
-  window.window = window;
-  const ctx = vm.createContext(window);
-  for (const f of ['data/content.js', 'data/sentences.js', 'data/custom.js', 'js/model.js', 'js/speech.js'])
-    vm.runInContext(readFileSync(join(dir!, f), 'utf8'), ctx, { filename: f });
-  const P = window.SPEECH, PM = window.MODEL;
+  let P: any, PM: any;
+  beforeAll(() => {
+    const window: any = { console: { warn() {} } };
+    window.window = window;
+    const ctx = vm.createContext(window);
+    for (const f of ['data/content.js', 'data/sentences.js', 'data/custom.js', 'js/model.js', 'js/speech.js'])
+      vm.runInContext(readFileSync(join(dir!, f), 'utf8'), ctx, { filename: f });
+    P = window.SPEECH; PM = window.MODEL;
+  });
   const plain = (x: unknown) => JSON.parse(JSON.stringify(x));
 
   it('model: items, order, lessons, sentences, conversations, categories, groups are identical', () => {
