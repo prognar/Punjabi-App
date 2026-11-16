@@ -46,5 +46,6 @@ parity test compares the model and matcher against the original code for every c
 | `seed.sql` | Generated. The prototype's 2,358 items and 38 lessons, all `draft`. Ids are UUIDv5 of the legacy id, so re-running is safe. |
 | `tests/` | `run-local.sh` applies everything to plain Postgres (with a small Supabase shim) and runs `workflow.test.sql` |
 
-Setting up the real project: create it in Supabase, `supabase link`, `supabase db push`, run `seed.sql` once, then insert the first
-owner by hand: `insert into studio_users (id, roles, display_name) values ('<auth user id>', '{owner}', 'Drew');`
+Live project: `txgsbggvkwyrecpwaxns` (https://txgsbggvkwyrecpwaxns.supabase.co) — migrations 1–5 and the seed are applied.
+New migrations: add a file here, then `supabase link --project-ref txgsbggvkwyrecpwaxns && supabase db push`.
+First owner (once, in the SQL editor): `insert into studio_users (id, roles, display_name) values ('<auth user id>', '{owner}', 'Drew');`
