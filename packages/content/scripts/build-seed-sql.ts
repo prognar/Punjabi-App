@@ -1,0 +1,86 @@
+// Builds supabase/seed.sql from packages/content/seed/*.json using the same model builder as the app,
+// so the database gets exactly the prototype's cards, lessons, sentences and conversations.
+// ids are UUIDv5(legacy_id) → re-running is idempotent and learner progress keyed by legacy id can be migrated.
+// Usage: npm run seed:sql
+import { createHash } from 'node:crypto';
+import { readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildModel } from '../../core/src/model';
+import type { Content, Custom, Item, SentencesData } from '../../core/src/types';
+
+const here = dirname(fileURLToPath(import.meta.url));
+const load = <T>(f: string) => JSON.parse(readFileSync(join(here, '..', 'seed', f), 'utf8')) as T;
+const M = buildModel(load<Content>('content.json'), load<SentencesData>('sentences.json'), load<Custom>('custom.json'));
+
+const NS = Buffer.from('6f0b6f0e5d0a4c3e9b1a50756e6a6162', 'hex'); // fixed namespace for this project
+export function uuid5(name: string): string {
+  const h = createHash('sha1').update(NS).update(name, 'utf8').digest();
+  h[6] = (h[6] & 0x0f) | 0x50; h[8] = (h[8] & 0x3f) | 0x80;
+  const x = h.subarray(0, 16).toString('hex');
+  return `${x.slice(0, 8)}-${x.slice(8, 12)}-${x.slice(12, 16)}-${x.slice(16, 20)}-${x.slice(20)}`;
+}
+const q = (s: string | null | undefined) => (s == null ? 'null' : `'${String(s).replace(/'/g, "''")}'`);
+const arr = (a: string[]) => (a.length ? `array[${a.map(q).join(',')}]` : `'{}'`);
+const json = (o: unknown) => `${q(JSON.stringify(o))}::jsonb`;
+
+const COLS = 'id, legacy_id, kind, en, pa, rom, pa_alts, rom_alts, note, category, phrase_group, tags, source, data, status';
+const rows: string[] = [], focus: string[] = [];
+const row = (r: { legacy: string; kind: string; en: string; pa: string; rom: string; paAlts?: string[]; romAlts?: string[]; note?: string;
+  category?: string | null; group?: string | null; tags?: string[]; source: string; data?: unknown; status?: string }) =>
+  rows.push(`(${[q(uuid5(r.legacy)), q(r.legacy), q(r.kind), q(r.en), q(r.pa), q(r.rom), arr(r.paAlts || []), arr(r.romAlts || []), q(r.note || ''),
+    q(r.category), q(r.group || null), arr(r.tags || []), q(r.source), json(r.data || {}), q(r.status || 'draft')].join(', ')})`);
+
+const strip = <T extends object>(o: T) => Object.fromEntries(Object.entries(o).filter(([, v]) => v != null && v !== '' && v !== false));
+const tagsFor = (it: Item) => (it.cat === 'gurdwara' || /gurdwara/i.test(it.group || '') ? ['gurdwara'] : []);
+
+// cards: letters, words, phrases (hidden cards are kept, retired)
+for (const it of Object.values(M.items)) {
+  if (it.kind === 'letter') {
+    row({ legacy: it.id, kind: 'letter', en: it.en, pa: it.pa, rom: it.romAnswers[0] ?? it.rom, romAlts: it.romAnswers.slice(1), source: it.src,
+      data: { name: it.name, sound: it.sound, words: it.words, index: it.index } });
+  } else {
+    row({ legacy: it.id, kind: it.kind, en: it.en, pa: it.paAnswers[0], rom: it.romAnswers[0] ?? it.rom, paAlts: it.paAnswers.slice(1), romAlts: it.romAnswers.slice(1),
+      note: it.note, category: it.cat, group: it.group || null, tags: tagsFor(it), source: it.src, status: it.hidden ? 'retired' : 'draft',
+      data: strip({ check: it.check, cls: it.cls, teacher_checked: it.verified, speakAs: it.speakAs, rate: it.rate, voice: it.voice }) });
+  }
+}
+// practice sentences (hand-written, template-generated, and multi-word phrases)
+for (const s of M.sentences) {
+  row({ legacy: s.id, kind: 'sentence', en: s.en, pa: s.pa.join(' '), rom: s.rom.join(' ').trim(), source: s.src, tags: tagsFor(M.items[s.focus]),
+    data: strip({ pa: s.pa, rom: s.rom, gloss: s.gloss, blank: s.blank, wrong: s.wrong.length ? s.wrong : null, template: s.template }) });
+  focus.push(`(${q(uuid5(s.id))}, ${q(uuid5(s.focus))})`);
+}
+// conversations ("pick the best reply")
+for (const c of M.conversations) {
+  row({ legacy: c.id, kind: 'conversation', en: c.prompt.en, pa: c.prompt.pa, rom: c.prompt.rom, source: 'generated',
+    tags: c.focus.some(f => tagsFor(M.items[f]).length) ? ['gurdwara'] : [], data: { reply: c.reply, wrong: c.wrong } });
+  for (const f of new Set(c.focus)) focus.push(`(${q(uuid5(c.id))}, ${q(uuid5(f))})`);
+}
+
+const lessons = M.lessons.map(L => `(${q(uuid5('lesson-' + L.n))}, ${L.n}, ${q('Lesson ' + L.n)}, ${L.n})`);
+const lessonItems = M.lessons.flatMap(L => [...L.letter, ...L.vocab, ...L.phrase].map((id, i) => `(${q(uuid5('lesson-' + L.n))}, ${q(uuid5(id))}, ${i + 1})`));
+
+const chunks = <T>(a: T[], n = 200) => Array.from({ length: Math.ceil(a.length / n) }, (_, i) => a.slice(i * n, i * n + n));
+const insert = (table: string, cols: string, vals: string[], conflict: string) =>
+  chunks(vals).map(c => `insert into public.${table} (${cols}) values\n${c.join(',\n')}\non conflict ${conflict} do nothing;`).join('\n\n');
+
+const sql = `-- GENERATED by packages/content/scripts/build-seed-sql.ts — do not edit. Regenerate with: npm run seed:sql
+-- Prototype content: ${M.order.letter.length} letters, ${M.order.vocab.length} words, ${M.order.phrase.length} phrases, ${M.sentences.length} sentences, ${M.conversations.length} conversations, ${M.lessons.length} lessons.
+-- Everything starts as draft: nothing is native-verified yet.
+begin;
+set local app.skip_audit = 'on';
+
+${insert('items', COLS, rows, '(id)')}
+
+${insert('item_focus', 'item_id, focus_item_id', focus, '(item_id, focus_item_id)')}
+
+${insert('lessons', 'id, legacy_n, title, sort_order', lessons, '(id)')}
+
+${insert('lesson_items', 'lesson_id, item_id, sort_order', lessonItems, '(lesson_id, item_id)')}
+
+commit;
+`;
+const out = join(here, '..', '..', '..', 'supabase', 'seed.sql');
+writeFileSync(out, sql);
+console.log(`wrote ${out}: ${rows.length} items (${M.order.letter.length} letters, ${M.order.vocab.length} words, ${M.order.phrase.length} phrases, ${M.sentences.length} sentences, ${M.conversations.length} conversations), ${lessons.length} lessons, ${lessonItems.length} lesson items, ${focus.length} focus links`);

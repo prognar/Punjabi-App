@@ -8,7 +8,7 @@ apps/mobile        Expo app (not started)
 apps/studio        Content Studio web app (not started)
 packages/core      engine, model builder, placement, speech matcher, tracing scorer — pure TS, unit-tested
 packages/content   seed data converted from the prototype (JSON) + conversion script
-supabase/          migrations, RLS policies, edge functions (not started)
+supabase/          migrations (schema, workflow rules, RLS), seed.sql (generated), SQL tests
 ```
 
 ## Commands
@@ -19,6 +19,8 @@ npm test          # all workspaces
 npm run typecheck
 PROTOTYPE_DIR=../Punjabi-Flash-Cards npm test                               # also runs corpus-wide parity vs the prototype code
 npm run seed:convert -- ../Punjabi-Flash-Cards                              # regenerate packages/content/seed from the prototype
+npm run seed:sql                                                            # regenerate supabase/seed.sql from packages/content/seed
+PGHOST=localhost PGUSER=postgres npm run db:test                            # migrations + seed + SQL tests on a throwaway local database
 ```
 
 ## packages/core
@@ -32,3 +34,17 @@ npm run seed:convert -- ../Punjabi-Flash-Cards                              # re
 
 Behaviour is identical to the prototype: the seeded 30-day learner simulations reproduce the same unlock days, and the
 parity test compares the model and matcher against the original code for every card.
+
+## supabase
+
+| File | What |
+|---|---|
+| `migrations/…01_content.sql` | Studio tables: `items` (uuid id + `legacy_id`), reviews, comments, recordings, units / lessons, releases, audit log |
+| `migrations/…02_learners.sql` | `accounts`, `learners` (max 6 per account), `item_progress`, `learner_days`, `events` |
+| `migrations/…03_workflow.sql` | Lifecycle rules as triggers: per-field sign-off, religious sign-off for `gurbani` / `gurdwara` tags, edit-after-approval → back to review, takes approved by a second person, no deletes, `publish_release()` |
+| `migrations/…04_rls.sql` | Row-level security by studio role; learner data visible only to its own account |
+| `seed.sql` | Generated. The prototype's 2,358 items and 38 lessons, all `draft`. Ids are UUIDv5 of the legacy id, so re-running is safe. |
+| `tests/` | `run-local.sh` applies everything to plain Postgres (with a small Supabase shim) and runs `workflow.test.sql` |
+
+Setting up the real project: create it in Supabase, `supabase link`, `supabase db push`, run `seed.sql` once, then insert the first
+owner by hand: `insert into studio_users (id, roles, display_name) values ('<auth user id>', '{owner}', 'Drew');`

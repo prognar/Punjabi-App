@@ -8,10 +8,13 @@
   "scripts": {
     "test": "npm run test --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces --if-present",
-    "seed:convert": "node packages/content/scripts/convert-prototype.mjs"
+    "seed:convert": "node packages/content/scripts/convert-prototype.mjs",
+    "seed:sql": "tsx packages/content/scripts/build-seed-sql.ts",
+    "db:test": "bash supabase/tests/run-local.sh"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
     "typescript": "^5.6.0",
     "vitest": "^2.1.0"
   },
