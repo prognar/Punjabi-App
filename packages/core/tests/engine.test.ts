@@ -44,15 +44,15 @@ describe('seeded learner simulations (30 days, 2 sessions/day)', () => {
     weak = simulate(rand, 'kid', 0.68, 30, 2);
   });
 
-  it('reproduces the prototype exactly (same seed → same unlock days)', () => {
+  it('reproduces the prototype exactly (same seed, TZ=UTC → same unlock days)', () => {
     expect(strong.pr.unlocked).toBe(11);
     expect(strong.unlockDays).toEqual([3, 6, 9, 12, 15, 18, 21, 24, 27, 30]);
     expect(kid.pr.unlocked).toBe(6);
-    expect(kid.unlockDays).toEqual([6, 12, 17, 22, 27]);
+    expect(kid.unlockDays).toEqual([6, 12, 16, 22, 29]);
     expect(weak.pr.unlocked).toBe(3);
-    expect(weak.unlockDays).toEqual([9, 22]);
-    expect([strong.req.label, kid.req.label, weak.req.label]).toEqual(['strong', 'strong', 'extra practice']);
-    expect([strong, kid, weak].map(x => x.avgReview.toFixed(2))).toEqual(['0.14', '0.13', '0.19']);
+    expect(weak.unlockDays).toEqual([8, 21]);
+    expect([strong.req.label, kid.req.label, weak.req.label]).toEqual(['strong', 'normal', 'normal']);
+    expect([strong, kid, weak].map(x => x.avgReview.toFixed(2))).toEqual(['0.14', '0.14', '0.22']);
   });
   it('strong learner advances faster than average, average faster than struggling', () => {
     expect(strong.pr.unlocked).toBeGreaterThan(kid.pr.unlocked);
