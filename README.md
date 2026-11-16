@@ -5,7 +5,7 @@ Punjabi (Gurmukhi) learning app for iOS / Android, rebuilt from the web prototyp
 
 ```
 apps/mobile        Expo app (not started)
-apps/studio        Content Studio web app (not started)
+apps/studio        Content Studio web app (Vite + React): login, dashboard, cards, batch text review → https://prognar.github.io/Punjabi-App/
 packages/core      engine, model builder, placement, speech matcher, tracing scorer — pure TS, unit-tested
 packages/content   seed data converted from the prototype (JSON) + conversion script
 supabase/          migrations (schema, workflow rules, RLS), seed.sql (generated), SQL tests
@@ -46,6 +46,6 @@ parity test compares the model and matcher against the original code for every c
 | `seed.sql` | Generated. The prototype's 2,358 items and 38 lessons, all `draft`. Ids are UUIDv5 of the legacy id, so re-running is safe. |
 | `tests/` | `run-local.sh` applies everything to plain Postgres (with a small Supabase shim) and runs `workflow.test.sql` |
 
-Live project: `txgsbggvkwyrecpwaxns` (https://txgsbggvkwyrecpwaxns.supabase.co) — migrations 1–5 and the seed are applied.
+Live project: `txgsbggvkwyrecpwaxns` (https://txgsbggvkwyrecpwaxns.supabase.co) — migrations 1–6 and the seed are applied.
 New migrations: add a file here, then `supabase link --project-ref txgsbggvkwyrecpwaxns && supabase db push`.
 First owner (once, in the SQL editor): `insert into studio_users (id, roles, display_name) values ('<auth user id>', '{owner}', 'Drew');`
