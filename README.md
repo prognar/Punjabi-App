@@ -4,7 +4,7 @@ Punjabi (Gurmukhi) learning app for iOS / Android, rebuilt from the web prototyp
 [`prognar/Punjabi-Flash-Cards`](https://github.com/prognar/Punjabi-Flash-Cards). Plan: `ROADMAP.md` in that repo.
 
 ```
-apps/mobile        Expo app (not started)
+apps/mobile        Expo app (SDK 58, Expo Router): sign in, learner profiles, home, multiple-choice practice sessions, offline-first sync
 apps/studio        Content Studio web app (Vite + React): login, dashboard, cards, batch text review → https://prognar.github.io/Punjabi-App/
 packages/core      engine, model builder, placement, speech matcher, tracing scorer — pure TS, unit-tested
 packages/content   seed data converted from the prototype (JSON) + conversion script
@@ -22,6 +22,13 @@ npm run seed:convert -- ../Punjabi-Flash-Cards                              # re
 npm run seed:sql                                                            # regenerate supabase/seed.sql from packages/content/seed
 PGHOST=localhost PGUSER=postgres npm run db:test                            # migrations + seed + SQL tests on a throwaway local database
 ```
+
+## apps/mobile
+
+- Test build for Android: https://github.com/prognar/Punjabi-App/releases/tag/android-latest (rebuilt by the `Android APK` workflow on every push that touches the app).
+- Local dev: `cd apps/mobile && npx expo start`, open in Expo Go or an Android emulator.
+- Content is bundled from `packages/content/seed` for now; later it comes from published content packs.
+- Progress is saved on the device first and pushed to Supabase (`item_progress`, `events`, `learner_days`); a new device rebuilds it from the server.
 
 ## packages/core
 

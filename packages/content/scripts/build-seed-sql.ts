@@ -2,24 +2,17 @@
 // so the database gets exactly the prototype's cards, lessons, sentences and conversations.
 // ids are UUIDv5(legacy_id) → re-running is idempotent and learner progress keyed by legacy id can be migrated.
 // Usage: npm run seed:sql
-import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildModel } from '../../core/src/model';
+import { uuid5 } from '../../core/src/uuid5';
 import type { Content, Custom, Item, SentencesData } from '../../core/src/types';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const load = <T>(f: string) => JSON.parse(readFileSync(join(here, '..', 'seed', f), 'utf8')) as T;
 const M = buildModel(load<Content>('content.json'), load<SentencesData>('sentences.json'), load<Custom>('custom.json'));
 
-const NS = Buffer.from('6f0b6f0e5d0a4c3e9b1a50756e6a6162', 'hex'); // fixed namespace for this project
-export function uuid5(name: string): string {
-  const h = createHash('sha1').update(NS).update(name, 'utf8').digest();
-  h[6] = (h[6] & 0x0f) | 0x50; h[8] = (h[8] & 0x3f) | 0x80;
-  const x = h.subarray(0, 16).toString('hex');
-  return `${x.slice(0, 8)}-${x.slice(8, 12)}-${x.slice(12, 16)}-${x.slice(16, 20)}-${x.slice(20)}`;
-}
 const q = (s: string | null | undefined) => (s == null ? 'null' : `'${String(s).replace(/'/g, "''")}'`);
 const arr = (a: string[]) => (a.length ? `array[${a.map(q).join(',')}]` : `'{}'`);
 const json = (o: unknown) => `${q(JSON.stringify(o))}::jsonb`;
