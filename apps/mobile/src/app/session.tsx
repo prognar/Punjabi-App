@@ -1,15 +1,14 @@
 import { buildQuestion, engine as E, fallbackExercise, type Card, type HistoryEntry, type Item, type Question } from '@punjabi-app/core';
 import { Redirect, useRouter } from 'expo-router';
-import * as Speech from 'expo-speech';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, BackHandler, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { Bar, Button, Screen } from '@/components/ui';
+import { prefetch, sayItem, sayText, stop } from '@/lib/audio';
 import { model } from '@/lib/content';
 import { useStore } from '@/lib/store';
 import { commit } from '@/lib/sync';
 import { C } from '@/lib/theme';
 
-const say = (text?: string) => { if (!text) return; Speech.stop(); Speech.speak(text, { language: 'pa-IN', rate: 0.85 }); };
 
 interface Summary { right: number; total: number; xp: number; unlocked: boolean; synced: boolean }
 
@@ -30,6 +29,7 @@ export default function Session() {
   if (!queue.current && pr && profile) {
     E.weeklyUnlock(pr, profile, model.lessons);
     queue.current = E.buildSession(pr, profile, model, 'all').queue;
+    prefetch([...new Set(queue.current.map(c => c.id))].map(id => model.items[id]));
     xpStart.current = E.xpToday(pr);
   }
   const q = queue.current ?? [];
@@ -38,15 +38,23 @@ export default function Session() {
   const ex = card && item ? fallbackExercise(card.ex, item) : undefined;
   const question: Question | null = useMemo(() => (item && ex && ex !== 'intro' ? buildQuestion(model, ex, item) : null), [pos, item, ex]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  /** the word-letter prompt is a picture word, not the card itself */
+  function hearPrompt() {
+    if (!item || !question?.prompt.speak) return;
+    if (question.ex === 'word-letter') sayText(question.prompt.speak, question.prompt.sub ?? '');
+    else sayItem(item);
+  }
+
   useEffect(() => {
     shownAt.current = Date.now();
     if (!item || !ex) return;
-    say(ex === 'intro' ? (item.kind === 'letter' ? item.name : item.paAnswers[0]) : question?.prompt.speak);
+    if (ex === 'intro') sayItem(item);
+    else if (question?.prompt.speak) hearPrompt();
   }, [pos]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const finish = useCallback(async (done: boolean) => {
     if (!learner || !pr || saving) return;
-    setSaving(true); Speech.stop();
+    setSaving(true); stop();
     const unlocked = done ? E.maybeAdvance(pr, model.lessons) : false;
     E.touchStreak(pr);
     const synced = await commit(learner, pr, [...changed.current], answers.current);
@@ -76,7 +84,7 @@ export default function Session() {
     changed.current.add(card.id);
     answers.current.push({ h: pr.history[pr.history.length - 1], ms: Date.now() - shownAt.current });
     if (!ok) E.requeueMiss(q, pos, card, model);
-    if (item && item.kind !== 'letter') say(item.paAnswers[0]);
+    if (item && item.kind !== 'letter') sayItem(item);
   };
 
   if (summary) {
@@ -108,14 +116,17 @@ export default function Session() {
         <>
           <ScrollView contentContainerStyle={s.body}>
             <Text style={s.instruction}>New {item.kind === 'letter' ? 'letter' : item.kind === 'vocab' ? 'word' : 'phrase'}</Text>
-            <Pressable accessibilityRole="button" accessibilityLabel="Hear it" onPress={() => say(item.kind === 'letter' ? item.name : item.paAnswers[0])} style={s.promptCard}>
+            <Pressable accessibilityRole="button" accessibilityLabel="Hear it" onPress={() => sayItem(item)} style={s.promptCard}>
               <Text style={[s.pa, item.kind === 'letter' && s.glyph]}>{item.kind === 'letter' ? item.glyph : item.paAnswers[0]}</Text>
               <Text style={s.rom}>{item.kind === 'letter' ? item.rom : item.romAnswers[0]}</Text>
               <Text style={s.en}>{item.kind === 'letter' ? `sounds like ${item.sound}` : item.en}</Text>
               <Text style={s.hear}>🔊 tap to hear</Text>
             </Pressable>
+            {item.kind === 'phrase' && (
+              <Pressable accessibilityRole="button" accessibilityLabel="Hear it slowly" onPress={() => sayItem(item, true)} style={s.slowBtn}><Text style={s.slowText}>🐢 slowly</Text></Pressable>
+            )}
             {item.kind === 'letter' && item.words?.map(w => (
-              <Pressable key={w.pa} accessibilityRole="button" onPress={() => say(w.pa)} style={s.wordRow}>
+              <Pressable key={w.pa} accessibilityRole="button" onPress={() => sayText(w.pa, w.rom)} style={s.wordRow}>
                 <Text style={s.wordEmoji}>{w.emoji}</Text><Text style={s.wordPa}>{w.pa}</Text><Text style={s.wordEn}>{w.rom} · {w.en}</Text>
               </Pressable>
             ))}
@@ -127,7 +138,7 @@ export default function Session() {
         <>
           <ScrollView contentContainerStyle={s.body}>
             <Text style={s.instruction}>{question.instruction}</Text>
-            <Pressable accessibilityRole={question.prompt.speak ? 'button' : 'text'} disabled={!question.prompt.speak} onPress={() => say(question.prompt.speak)} style={s.promptCard}>
+            <Pressable accessibilityRole={question.prompt.speak ? 'button' : 'text'} disabled={!question.prompt.speak} onPress={hearPrompt} style={s.promptCard}>
               {!!question.prompt.emoji && <Text style={s.emoji}>{question.prompt.emoji}</Text>}
               <Text style={question.prompt.gurmukhi ? [s.pa, item.kind === 'letter' && s.glyph] : s.promptEn}>{question.prompt.text}</Text>
               {!!question.prompt.sub && profile.settings.showRoman && <Text style={s.rom}>{question.prompt.sub}</Text>}
@@ -172,6 +183,8 @@ const s = StyleSheet.create({
   promptEn: { fontSize: 30, fontWeight: '700', color: C.ink, textAlign: 'center' },
   rom: { fontSize: 20, color: C.accent, textAlign: 'center' }, en: { fontSize: 20, color: C.ink, textAlign: 'center' },
   hear: { fontSize: 13, color: C.muted, marginTop: 4 },
+  slowBtn: { alignSelf: 'center', minHeight: 44, paddingHorizontal: 18, borderRadius: 22, borderWidth: 1, borderColor: C.line, backgroundColor: C.card, justifyContent: 'center' },
+  slowText: { fontSize: 16, color: C.ink },
   wordRow: { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: C.card, borderWidth: 1, borderColor: C.line, borderRadius: 14, padding: 12, minHeight: 56 },
   wordEmoji: { fontSize: 28 }, wordPa: { fontSize: 24, color: C.ink }, wordEn: { fontSize: 15, color: C.muted, flex: 1 },
   choices: { gap: 10 },

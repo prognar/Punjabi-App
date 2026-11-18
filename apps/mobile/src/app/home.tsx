@@ -1,7 +1,9 @@
 import { engine as E } from '@punjabi-app/core';
 import { Redirect, useRouter } from 'expo-router';
+import { useEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { Bar, Button, Screen } from '@/components/ui';
+import { refreshAudio } from '@/lib/audio';
 import { model } from '@/lib/content';
 import { useStore } from '@/lib/store';
 import { C } from '@/lib/theme';
@@ -9,6 +11,7 @@ import { C } from '@/lib/theme';
 export default function Home() {
   const { session, learner, progress: pr, profile, selectLearner } = useStore();
   const router = useRouter();
+  useEffect(() => { refreshAudio(); }, []);
   if (!session) return <Redirect href="/sign-in" />;
   if (!learner || !pr || !profile) return <Redirect href="/learners" />;
 

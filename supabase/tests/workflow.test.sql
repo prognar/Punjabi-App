@@ -181,6 +181,21 @@ select pg_temp.ok(pg_temp.rejected($$insert into storage.objects (bucket_id, nam
 select pg_temp.login(:parent);
 select pg_temp.ok((select count(*) from storage.objects) = 0, 'learner accounts cannot read takes');
 
+-- ---------------------------------------------------------------- audio manifest for learner apps
+select pg_temp.login(null);
+insert into storage.objects (bucket_id, name) values ('recordings', 'audio/v-cat/1.m4a'), ('recordings', 'audio/v-cat/2.m4a');
+select pg_temp.login(:parent);
+select pg_temp.login(null);
+select set_config('t.cat', (select id::text from items where legacy_id = 'v-cat'), true);
+select pg_temp.login(:parent);
+select pg_temp.ok((select rec from audio_manifest() where item_id = current_setting('t.cat')::uuid) = 'audio/v-cat/2.m4a', 'manifest lists the approved take for a learner');
+select pg_temp.ok((select speak_as from audio_manifest() where item_id = (select item_id from audio_manifest() where speak_as = 'ਗੇਂਦ')) = 'ਗੇਂਦ', 'manifest lists say-it-as tuning');
+select pg_temp.ok((select count(*) from audio_manifest() where rec = 'audio/v-cat/1.m4a') = 0, 'manifest never lists unapproved takes');
+select pg_temp.ok((select count(*) from storage.objects where name = 'audio/v-cat/2.m4a') = 1, 'a learner can fetch an approved take');
+select pg_temp.ok((select count(*) from storage.objects where name = 'audio/v-cat/1.m4a') = 0, 'a learner cannot fetch a pending take');
+select pg_temp.login(null);
+select pg_temp.ok((select count(*) from audio_manifest()) = 0, 'signed-out callers get nothing');
+
 select pg_temp.login(null);
 rollback;
 \echo ALL DATABASE TESTS PASSED

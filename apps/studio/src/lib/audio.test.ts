@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { autoMode, plan, type VoiceLike } from './speech';
+import { autoMode, plan, type VoiceLike } from '@punjabi-app/core';
 import { RATE, encodeWav, trimSilence } from './wav';
 
 const V = (lang: string, name = lang): VoiceLike => ({ lang, name, voiceURI: name, localService: true });
