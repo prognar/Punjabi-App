@@ -157,6 +157,30 @@ select pg_temp.ok((select count(*) from learners) = 0 and (select count(*) from 
 select pg_temp.ok(pg_temp.rejected($$insert into item_progress (learner_id, item_id) values ('00000000-0000-0000-0000-000000000102', current_setting('t.cat')::uuid)$$), 'another account cannot write into it');
 select pg_temp.ok(pg_temp.rejected($$insert into events (learner_id, type) values ('00000000-0000-0000-0000-000000000101', 'answer')$$), 'another account cannot log events for it');
 
+-- ---------------------------------------------------------------- computer-voice tuning
+select pg_temp.login(:reviewer);
+select set_pronunciation((select id from items where legacy_id = 'v-ball'), 'gaynd', 'en', 0.7, false);
+select pg_temp.ok((select data ->> 'speakAs' = 'gaynd' and data ->> 'voice' = 'en' and (data ->> 'rate')::numeric = 0.7 and not data ? 'tts_ok_by' from items where legacy_id = 'v-ball'), 'reviewer saves a say-it-as spelling');
+select set_pronunciation((select id from items where legacy_id = 'v-ball'), 'gaynd', 'en', 0.7, true);
+select pg_temp.ok((select data ->> 'tts_ok_by' = '00000000-0000-0000-0000-00000000000c' from items where legacy_id = 'v-ball'), 'reviewer confirms it sounds right');
+select pg_temp.ok((select status from items where legacy_id = 'v-ball') = 'draft' and (select version from items where legacy_id = 'v-ball') = 1, 'tuning the voice does not change status or version');
+select set_pronunciation((select id from items where legacy_id = 'v-ball'), 'ਗੇਂਦ', 'auto', 0.8, false);
+select pg_temp.ok((select not data ? 'tts_ok_by' and not data ? 'voice' and not data ? 'rate' from items where legacy_id = 'v-ball'), 'changing it clears the confirmation; defaults are not stored');
+select pg_temp.ok(pg_temp.rejected($$select set_pronunciation((select id from items where legacy_id = 'v-ball'), 'x', 'fr', 1, false)$$), 'unknown voice is rejected');
+select pg_temp.ok(pg_temp.rejected($$select set_pronunciation((select id from items where legacy_id = 'v-ball'), 'x', 'en', 3, false)$$), 'silly speed is rejected');
+select pg_temp.login(:parent);
+select pg_temp.ok(pg_temp.rejected($$select set_pronunciation('00000000-0000-0000-0000-000000000000', 'x', 'en', 1, false)$$), 'a learner account cannot tune the voice');
+
+-- ---------------------------------------------------------------- recordings storage
+select pg_temp.login(:voice);
+insert into storage.objects (bucket_id, name) values ('recordings', '00000000-0000-0000-0000-00000000000e/item/take.wav');
+select pg_temp.ok(pg_temp.rejected($$insert into storage.objects (bucket_id, name) values ('recordings', '00000000-0000-0000-0000-00000000000c/item/take.wav')$$), 'voice talent uploads only into their own folder');
+select pg_temp.login(:reviewer);
+select pg_temp.ok((select count(*) from storage.objects where bucket_id = 'recordings') = 1, 'studio users can listen to takes');
+select pg_temp.ok(pg_temp.rejected($$insert into storage.objects (bucket_id, name) values ('recordings', '00000000-0000-0000-0000-00000000000c/item/take.wav')$$), 'reviewers without the voice role cannot upload');
+select pg_temp.login(:parent);
+select pg_temp.ok((select count(*) from storage.objects) = 0, 'learner accounts cannot read takes');
+
 select pg_temp.login(null);
 rollback;
 \echo ALL DATABASE TESTS PASSED

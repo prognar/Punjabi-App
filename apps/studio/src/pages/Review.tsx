@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Me } from '../App';
+import { Hear, Pronunciation } from '../components/Sound';
 import { FIELDS, fieldsToApprove, latestByField, needsReligiousReview } from '../lib/review';
 import { supabase } from '../supabase';
 import { KINDS, KIND_LABEL, STATUS_LABEL, type FieldReview, type Item, type Kind, type Lesson, type ReviewField } from '../types';
 
-const COLS = 'id, legacy_id, kind, en, pa, rom, pa_alts, rom_alts, note, category, phrase_group, tags, source, data, status, version, updated_at';
+const COLS = 'id, legacy_id, kind, en, pa, rom, pa_alts, rom_alts, note, category, phrase_group, tags, source, data, status, version, pa_version, updated_at';
 const chunk = <T,>(a: T[], n: number) => Array.from({ length: Math.ceil(a.length / n) }, (_, i) => a.slice(i * n, i * n + n));
 
 export function Review({ me }: { me: Me }) {
@@ -107,7 +108,11 @@ export function Review({ me }: { me: Me }) {
           <div className="pa huge" lang="pa">{item.pa}</div>
           <div className="rom">{item.rom}</div>
           <div className="en">{item.en}</div>
+          <div className="actions center-row"><Hear item={item} auto /></div>
           <Details item={item} />
+          {(item.kind === 'letter' || item.kind === 'vocab' || item.kind === 'phrase') && (
+            <Pronunciation item={item} me={me} onSaved={data => setQueue(q => q.map(x => (x.id === item.id ? { ...x, data } : x)))} />
+          )}
 
           <ul className="checks row">
             {FIELDS.map(x => { const r = latest[x.key]; return (

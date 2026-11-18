@@ -1,6 +1,7 @@
 import type { Session } from '@supabase/supabase-js';
 import { useEffect, useState, type FormEvent } from 'react';
-import { canReview } from './lib/review';
+import { canRecord, canReview } from './lib/review';
+import { Audio } from './pages/Audio';
 import { Dashboard } from './pages/Dashboard';
 import { Items } from './pages/Items';
 import { Review } from './pages/Review';
@@ -8,8 +9,8 @@ import { supabase } from './supabase';
 import type { Role } from './types';
 
 export interface Me { id: string; email: string; name: string; roles: Role[] }
-type Tab = 'dashboard' | 'items' | 'review';
-const TABS: { key: Tab; label: string }[] = [{ key: 'dashboard', label: 'Dashboard' }, { key: 'items', label: 'Cards' }, { key: 'review', label: 'Review' }];
+type Tab = 'dashboard' | 'items' | 'review' | 'audio';
+const TABS: { key: Tab; label: string }[] = [{ key: 'dashboard', label: 'Dashboard' }, { key: 'items', label: 'Cards' }, { key: 'review', label: 'Review' }, { key: 'audio', label: 'Audio' }];
 const tabFromHash = (): Tab => (TABS.find(t => '#' + t.key === location.hash)?.key ?? 'dashboard');
 
 export function App() {
@@ -52,7 +53,7 @@ export function App() {
       <header className="top">
         <strong className="brand">ਪੰਜਾਬੀ Content Studio</strong>
         <nav>
-          {TABS.filter(t => t.key !== 'review' || canReview(me.roles)).map(t => (
+          {TABS.filter(t => (t.key !== 'review' || canReview(me.roles)) && (t.key !== 'audio' || canReview(me.roles) || canRecord(me.roles))).map(t => (
             <a key={t.key} href={'#' + t.key} className={tab === t.key ? 'on' : ''}>{t.label}</a>
           ))}
         </nav>
@@ -63,6 +64,7 @@ export function App() {
         {tab === 'dashboard' && <Dashboard />}
         {tab === 'items' && <Items me={me} />}
         {tab === 'review' && <Review me={me} />}
+        {tab === 'audio' && <Audio me={me} />}
       </main>
     </>
   );

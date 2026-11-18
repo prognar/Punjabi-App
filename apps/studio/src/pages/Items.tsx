@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useState } from 'react';
 import type { Me } from '../App';
+import { Hear, Pronunciation, Takes } from '../components/Sound';
 import { FIELDS, canEdit, isAdmin, latestByField, needsReligiousReview, searchFilter } from '../lib/review';
 import { supabase } from '../supabase';
 import { KINDS, KIND_LABEL, STATUSES, STATUS_LABEL, type FieldReview, type Item, type Kind, type Lesson, type Status } from '../types';
 
 const PAGE = 50;
-const COLS = 'id, legacy_id, kind, en, pa, rom, pa_alts, rom_alts, note, category, phrase_group, tags, source, data, status, version, updated_at';
+const COLS = 'id, legacy_id, kind, en, pa, rom, pa_alts, rom_alts, note, category, phrase_group, tags, source, data, status, version, pa_version, updated_at';
 
 export function Items({ me }: { me: Me }) {
   const [kind, setKind] = useState<Kind | ''>('');
@@ -140,6 +141,11 @@ function Editor({ item, me, onClose }: { item: Item; me: Me; onClose: (changed: 
     if (error) { setError(error.message); return; }
     setCur(data as unknown as Item); setChanged(true);
   };
+  const refresh = async () => {
+    const { data } = await supabase.from('items').select(COLS).eq('id', cur.id).single();
+    if (data) setCur(data as unknown as Item);
+    setChanged(true);
+  };
   const save = () => run({ en: f.en.trim(), pa: f.pa.trim(), rom: f.rom.trim(), note: f.note.trim(), pa_alts: splitAlts(f.pa_alts), rom_alts: splitAlts(f.rom_alts) });
   const latest = latestByField(reviews, cur);
   const set = (k: keyof typeof f) => (e: { target: { value: string } }) => setF(x => ({ ...x, [k]: e.target.value }));
@@ -171,6 +177,12 @@ function Editor({ item, me, onClose }: { item: Item; me: Me; onClose: (changed: 
           </div>
         )}
         {edit && dirty && approved && <p className="warn">This card is approved. Saving a change sends it back to review.</p>}
+
+        {(cur.kind === 'letter' || cur.kind === 'vocab' || cur.kind === 'phrase') && <>
+          <div className="actions"><Hear item={cur} /></div>
+          <Pronunciation item={cur} me={me} onSaved={data => { setCur(c => ({ ...c, data })); setChanged(true); }} />
+          <Takes item={cur} me={me} onChange={refresh} />
+        </>}
 
         <h3>Review at version {cur.version}</h3>
         <ul className="checks">

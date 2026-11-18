@@ -70,3 +70,23 @@ td.pa { font-size: 18px; }
 .review .actions { justify-content: center; }
 .flag { display: grid; gap: 10px; text-align: left; max-width: 480px; margin: 0 auto; width: 100%; }
 @media (max-width: 600px) { .two { grid-template-columns: 1fr; } main { padding: 12px; } th, td { padding: 8px; } }
+
+/* sound */
+.small { font-size: 13px; }
+.hear { display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.center-row { justify-content: center; }
+.nowrap { white-space: nowrap; }
+.pron, .takes { text-align: left; border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: grid; gap: 10px; background: var(--bg); }
+.pron-head { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.pron-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.okay { color: var(--ok); font-weight: 600; }
+.takes ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.takes li { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.takes .grow { flex: 1; min-width: 120px; }
+.recorder { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+label.inline { display: inline-flex; flex-direction: row; gap: 6px; align-items: center; color: var(--ink); font-size: 15px; }
+button.rec { border-color: var(--bad); color: var(--bad); font-weight: 700; min-width: 120px; padding: 12px 18px; }
+button.rec.on { background: var(--bad); color: #fff; animation: pulse 1s infinite; }
+@keyframes pulse { 50% { opacity: .7; } }
+details summary { cursor: pointer; text-align: left; }
+@media (max-width: 600px) { .pron-row { grid-template-columns: 1fr; } button { padding: 10px 14px; } }

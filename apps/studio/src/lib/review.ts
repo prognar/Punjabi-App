@@ -36,3 +36,5 @@ export function searchFilter(q: string): string | null {
   if (!s) return null;
   return ['en', 'pa', 'rom', 'legacy_id'].map(c => `${c}.ilike.%${s}%`).join(',');
 }
+export const canRecord = (roles: Role[]) => roles.some(r => r === 'owner' || r === 'admin' || r === 'voice_talent');
+export const RECORDABLE = ['approved_text', 'recording', 'approved_audio', 'ready', 'published'] as const;

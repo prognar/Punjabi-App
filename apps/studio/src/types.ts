@@ -21,6 +21,7 @@ export interface Item {
   data: Record<string, unknown>;
   status: Status;
   version: number;
+  pa_version: number;
   updated_at: string;
 }
 export interface FieldReview {
@@ -47,3 +48,11 @@ export const STATUS_LABEL: Record<Status, string> = {
   draft: 'Draft', in_review: 'In review', changes_requested: 'Changes requested', approved_text: 'Text approved', recording: 'Recording',
   approved_audio: 'Audio approved', ready: 'Ready', published: 'Published', retired: 'Retired'
 };
+
+export interface Recording {
+  id: string; item_id: string; speaker_id: string; take_no: number; storage_path: string; duration_ms: number | null;
+  is_slow: boolean; pa_version: number; status: 'pending' | 'approved' | 'rejected'; is_best: boolean;
+  reviewed_by: string | null; created_at: string;
+}
+/** Computer-voice tuning stored in items.data */
+export interface Tuning { speakAs?: string; voice?: 'pa' | 'hi' | 'en'; rate?: number; tts_ok_by?: string; tts_ok_at?: string }
